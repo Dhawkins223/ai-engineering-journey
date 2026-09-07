@@ -25,12 +25,10 @@ GitHub Actions
       ↓
 application / ML / AI code
       ↓
-Railway for early backend projects
-      ↓
-AWS for advanced production AI systems
+AWS and other cloud services when production deployment becomes necessary
 ```
 
-The local Windows machine is primarily an access point. Heavy local Docker/VM infrastructure is not required for the foundation phase.
+Railway is intentionally not part of this learning environment. The local Windows machine is primarily an access point, and heavy local Docker/VM infrastructure is not required for the foundation phase.
 
 ## Repository organization
 
