@@ -1,0 +1,2 @@
+# Runtime dependencies will be added as the curriculum reaches them.
+# Development tools are managed in pyproject.toml under [project.optional-dependencies].
