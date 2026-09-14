@@ -1308,3 +1308,319 @@ Success means being able to build and defend a production-quality AI system:
 - improve it
 
 That is the standard this curriculum is designed to reach.
+
+
+---
+
+# 26. Python Learning Protocol — Problem-Solving Layer
+
+This protocol supplements CS50P. It does **not** replace the curriculum or add a second full Python course.
+
+The useful ideas are:
+
+- use one primary long-form Python course
+- practice writing code instead of only watching lessons
+- deliberately train problem-solving
+- visualize execution when concepts are hard to understand
+- use AI as a tutor rather than an answer generator
+- understand where Python fits in a real software/AI system
+- begin building small original projects before feeling completely ready
+
+## 26.1 One-Course Rule
+
+**CS50P remains the canonical Python course.**
+
+Do not add Zero to Mastery, Bro Code, Automate the Boring Stuff, or another full beginner Python course at the same time.
+
+Supplemental resources are allowed only for targeted practice or visualization.
+
+Reason:
+
+> Multiple beginner courses create repetition without necessarily increasing independent problem-solving ability.
+
+## 26.2 Daily Problem-Solving Warm-Up
+
+After the learner is functional with variables, functions, and conditionals, begin each Python study session with a short problem-solving warm-up.
+
+Recommended resource:
+
+https://www.codewars.com/kata/search/python
+
+Rules:
+
+- Python only
+- begin with **8 kyu**
+- one kata per study session
+- target 10–15 minutes
+- hard cap: 20 minutes before switching to the stuck protocol
+- do not copy another solution before attempting the problem
+- after solving, compare one or two community solutions and identify one cleaner idea
+- do not allow Codewars to replace the day's main curriculum work
+
+Progression:
+
+~~~text
+8 kyu
+  ↓
+comfortable solving independently
+  ↓
+7 kyu
+  ↓
+DSA phase later
+  ↓
+selected LeetCode problems
+~~~
+
+There is no requirement to grind large numbers of problems.
+
+## 26.3 Stuck Protocol
+
+Feeling stuck is expected. The learner should not immediately outsource the problem to AI.
+
+Use this sequence:
+
+~~~text
+1. Restate the problem in plain English.
+2. Write the expected input and output.
+3. Break the problem into smaller steps.
+4. Try a small example manually.
+5. Write pseudocode.
+6. Attempt the code.
+7. Read the error / traceback.
+8. Check official documentation or course notes.
+9. Use Python Tutor if execution flow is unclear.
+10. Ask AI for a hint or explanation, not a complete solution.
+11. Retry the solution independently.
+12. Explain the finished solution without looking at it.
+~~~
+
+Suggested timer:
+
+- 20–25 minutes of focused independent effort
+- short break if needed
+- then escalate through the protocol
+
+The objective is not to remain stuck indefinitely. The objective is to avoid skipping the reasoning stage.
+
+## 26.4 Python Tutor
+
+Resource:
+
+https://pythontutor.com/
+
+Use Python Tutor when a concept is difficult to visualize, especially:
+
+- variable assignment
+- function calls
+- scope
+- loops
+- conditionals
+- lists/dictionaries
+- recursion later
+- object references later
+
+Python Tutor should be used to answer:
+
+> What is Python doing at each step?
+
+It is a visualization/debugging supplement, not a replacement for writing code.
+
+## 26.5 Practice Python
+
+Resource:
+
+https://www.practicepython.org/exercises/
+
+Practice Python contains more than 40 small beginner exercises.
+
+It is introduced **after loops and basic exception handling are functional**, rather than on Day 1.
+
+Recommended use:
+
+- 2–3 exercises per week
+- choose exercises aligned with concepts already learned
+- solve in Codespaces
+- store selected solutions under the appropriate weekly exercises directory
+- attempt the problem before viewing any published solution
+- do not complete all 40 simply to check a box
+
+This resource exists to increase independent code-writing repetitions.
+
+## 26.6 30 Days of Python — Selective Project Bank
+
+Reference:
+
+https://github.com/Asabeneh/30-Days-Of-Python
+
+Do **not** run this as a second parallel Python course.
+
+Use it selectively after the core CS50P fundamentals are established.
+
+Useful later topics include:
+
+- functions
+- modules
+- exceptions
+- regex
+- file handling
+- virtual environments
+- classes/objects
+- web concepts
+- APIs
+- Pandas
+
+Skip or defer content that conflicts with the main curriculum sequence.
+
+The repository is a **practice/project bank**, not a curriculum authority.
+
+## 26.7 Software-Lifecycle Context
+
+Very early in the curriculum, maintain a high-level picture of where Python will eventually sit:
+
+~~~text
+user / client
+    ↓
+frontend or external system
+    ↓
+Python API / backend
+    ↓
+business logic
+    ↓
+database / files / external APIs
+    ↓
+ML model or LLM
+    ↓
+evaluation / monitoring
+    ↓
+cloud infrastructure
+~~~
+
+During Weeks 1–2, spend no more than roughly **60–90 minutes total** on this architecture orientation.
+
+The purpose is context, not premature infrastructure study.
+
+Do not derail the foundation phase by trying to learn Docker, AWS, FastAPI, databases, and ML all at once.
+
+## 26.8 Build Before Feeling Ready
+
+Once enough syntax exists to create a small program, begin original projects.
+
+The project sequence is:
+
+~~~text
+tiny exercises
+   ↓
+budget calculator
+   ↓
+expense tracker
+   ↓
+database-backed application
+   ↓
+production backend
+   ↓
+ML system
+   ↓
+production AI system
+~~~
+
+Each project should require some independent decisions rather than copying a tutorial line-for-line.
+
+Projects should evolve in complexity as skills are acquired.
+
+## 26.9 Product-Building / SaaS Principle
+
+Building a real product can be valuable, but it is **not a Week 1 objective**.
+
+After backend engineering fundamentals are functional, one portfolio project may be developed as a real product with:
+
+- FastAPI
+- PostgreSQL
+- authentication
+- payments only if the product genuinely needs them
+- CI/CD
+- cloud deployment
+- logging/monitoring
+- later, AI/ML capabilities where justified
+
+The purpose is to create evidence of production engineering ability, not to force every project into a startup.
+
+Existing Hawknetic projects may be used when they provide a better real-world problem than an invented tutorial application.
+
+## 26.10 Revised Daily Python Session Pattern
+
+Once the Codewars warm-up begins, a typical Python-focused study block becomes:
+
+~~~text
+10–15 min   8-kyu Codewars warm-up
+60–90 min   CS50P lesson / problem set
+45–90 min   independent implementation
+10–20 min   debugging / Python Tutor / documentation
+5–10 min    explain what was learned + commit meaningful work
+~~~
+
+The 10–15 minute warm-up comes **out of existing practice time**. It does not increase the 30-hour weekly workload.
+
+## 26.11 AI Tutor Rules — Strengthened
+
+When asking an AI assistant for help with foundational Python, preferred requests are:
+
+- "Explain why this error occurs."
+- "Give me one hint, not the solution."
+- "Ask me questions that lead me to the answer."
+- "Review my solution after I finish it."
+- "Show me what concept I am misunderstanding."
+- "Give me a similar practice problem."
+
+Avoid:
+
+- "Write the assignment for me."
+- pasting a full generated answer into CS50
+- accepting code that cannot be explained line-by-line
+
+AI is functioning correctly when it **increases the learner's reasoning ability**, not when it removes the reasoning.
+
+## 26.12 What We Are Explicitly Not Adopting
+
+Some claims from informal Python-learning content are too aggressive and are **not** part of this roadmap.
+
+We do not assume that:
+
+- knowing basic Python alone makes someone job-ready
+- completing 30 beginner projects equals professional experience
+- building a SaaS is required for employability
+- Codewars performance alone measures engineering ability
+- every Python learner should immediately learn Docker/backend/ML simultaneously
+
+Professional readiness still requires the broader roadmap in this README:
+
+**Python + Git + Linux + SQL + software engineering + APIs + testing + databases + deployment + ML + AI systems.**
+
+## 26.13 Immediate Integration Into Semester 1
+
+The following changes take effect now:
+
+### Week 1
+- Keep CS50P as the only long-form Python course.
+- Use Python Tutor when functions/conditionals are confusing.
+- Introduce the stuck protocol immediately.
+- Do not add another Python course.
+- After Functions & Variables plus basic Conditionals are functional, optionally begin one **8-kyu Codewars** problem at the start of Python sessions.
+- Codewars is capped at 15 minutes normally and 20 minutes maximum.
+
+### Weeks 2–3
+- Continue one short Codewars warm-up per Python study session.
+- After Loops and Exceptions are functional, add **2–3 Practice Python exercises per week**.
+- Start using pseudocode before non-trivial exercises.
+
+### Weeks 4–7
+- Continue CS50P as primary.
+- Use selected Practice Python / 30 Days of Python exercises only when they reinforce the current CS50P topic.
+- Increase independent project work.
+- Do not increase total weekly hours merely to fit supplemental material.
+
+### After CS50P
+- Shift emphasis from beginner exercises to the Expense Tracker, SQL, backend engineering, and progressively more realistic projects.
+- Codewars continues as a small problem-solving warm-up.
+- LeetCode is deferred until the DSA/interview phase.
+
+This protocol is subordinate to the competency gates and acceleration rules already defined above.
