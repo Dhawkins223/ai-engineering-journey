@@ -79,7 +79,7 @@ Evidence that pushes the estimate down:
 
 - Stanford's 2026 AI Index reports that employment for software developers ages 22 to 25 fell nearly 20% from 2024, indicating a difficult early-career software market.
 - LinkedIn's 2026 labor-market reporting says entry-level hiring remains weak even while AI roles continue to grow.
-- A current convenience sample of six live AI or applied-AI postings checked on September 16, 2026 all required at least 3 years of relevant professional experience, and four required 5 or more years. This is not a representative sample, but it shows how common experience requirements are.
+- A current convenience sample of seven live AI or applied-AI postings checked on September 16, 2026 found that six required at least 3 years of relevant professional experience, four required 5 or more years, and one listed 1 to 3 years. This is not a representative sample, but it shows that experience requirements are common while some lower-experience openings do exist.
 
 Evidence that keeps the path worth pursuing:
 
@@ -107,8 +107,9 @@ Current posting sample used only as directional evidence:
 - BLEN AI Engineer, 5+ years professional software engineering: <https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74>
 - United Tech AI Engineer, 5+ years production Python: <https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b>
 - RYZ Labs Full Stack AI Engineer, 5+ years: <https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44>
-- Lodgify AI Engineer, 3+ years: <https://jobs.lever.co/lodgify/d99f7960-cf71-4fd9-b87a-08066b00d07e>
-- Simbe Applied AI Engineer, 3+ years: <https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681>
+- CYE Senior AI Engineer, 3+ years dedicated AI development: <https://jobs.lever.co/CYE/ba6f695a-5512-4fcb-bcb0-aa7d42c9c6c4>
+- Simbe Applied AI Engineer, 3+ years related technical experience: <https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681>
+- Xsolla Full Stack AI Engineer / Applied AI Engineer, 1 to 3 years full-stack experience: <https://jobs.lever.co/xsolla/ebb74747-c739-4247-bafc-a088c10fa643>
 
 ## Long-range roadmap
 
