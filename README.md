@@ -1,1624 +1,345 @@
 # AI Engineering Journey
 
-A cloud-first, one-year curriculum and portfolio repository designed to progress from programming fundamentals to **Production AI Systems / Agentic AI Engineering**.
+Cloud-first roadmap from programming fundamentals to production AI systems.
 
-This README is the source of truth for the curriculum so that any AI assistant, coding agent, reviewer, or collaborator can understand the objective, current phase, sequencing rules, environment, and what should happen next.
+## Source-of-truth hierarchy
 
----
+This repository has one source of truth at each level:
 
-# 1. Primary Career Goal
+1. Root README: long-range roadmap, career path, dates, capacity, deadline policy, and phase-level allocation.
+2. Week README: the detailed daily execution plan for that week.
+3. Master PDF: a generated printout of the root README followed by the current Week README. The PDF contains no independent curriculum content.
 
-Target role family:
+Current detailed week:
+[Semester 1 Week 1](semester-1/week-01/README.md)
 
-**Software Engineer → AI Engineer → Production AI Systems / Agentic AI Engineer**
+Repository:
+https://github.com/Dhawkins223/ai-engineering-journey
 
-Target serious AI Engineer applications: **August-September 2027**.
+## Capacity and calendar rules
 
-The curriculum is intentionally broader than prompt engineering. The goal is to become capable of taking a problem from idea to production:
-
-```text
-problem
-  ↓
-data / context
-  ↓
-model or LLM approach
-  ↓
-evaluation
-  ↓
-API / application integration
-  ↓
-database / tools / retrieval
-  ↓
-tests
-  ↓
-CI/CD
-  ↓
-cloud deployment
-  ↓
-monitoring / security / cost control
-  ↓
-iteration
-```
-
-The final competency standard is:
-
-> Independently take a real problem, choose an appropriate AI/ML approach, prepare the data/context, implement the system, evaluate it, expose it through software, test it, deploy it, monitor it, and explain the architecture and tradeoffs.
-
-## Target realism
-
-At the currently declared workload of about **30 hours per week**, applying for AI Engineer and Applied AI Engineer roles by August to September 2027 is realistic as an application target.
-
-It is not a guarantee of being competitive for every AI Engineer opening. Many roles still expect professional software engineering experience. The goal is to be technically ready to apply broadly, with production-oriented portfolio evidence, while also applying earlier to junior software, backend, and ML-adjacent roles.
-
----
-
-# 2. Curriculum Philosophy
-
-This is not a certificate-collection plan and not a traditional data-science-only path.
-
-The highest-value target is an engineer who can build reliable software systems around models, LLMs, tools, agents, data, evaluation, security, cloud infrastructure, and business workflows.
-
-The curriculum therefore emphasizes:
-
-- strong Python and software engineering
-- SQL and databases
-- Linux and cloud fluency
-- APIs and backend engineering
-- testing and CI/CD
-- machine learning fundamentals
-- PyTorch and deep learning
-- transformers and LLMs
-- RAG and vector search
-- tool calling and agentic systems
-- MCP
-- AI evaluations and observability
-- security and prompt-injection defense
-- AWS and production cloud architecture
-- MLOps / AI operations
-
-The curriculum deliberately does **not** begin with advanced AI frameworks. Foundations come first.
-
----
-
-# 3. Cloud-First Work Environment
-
-Primary development model:
-
-```text
-GitHub Codespaces
-      ↓
-GitHub repository
-      ↓
-GitHub Actions
-      ↓
-Python / backend / ML / AI code
-      ↓
-AWS or another appropriate cloud service when production deployment becomes necessary
-```
-
-**Railway is intentionally not part of this learning environment.** It is reserved for other projects.
-
-The local Windows machine is primarily an access point. Heavy local Docker/VM infrastructure is not required during the foundation phase.
-
-Primary tools now:
-
-- GitHub Codespaces
-- browser-based VS Code
-- Python
-- Git/GitHub
-- Linux terminal inside Codespaces
-- pytest
-- Ruff
-
-Later tools are introduced only when required.
-
----
-
-# 4. Time Commitment and Acceleration Rules
-
-Current declared weekly capacity:
+Sustainable study capacity:
 
 **30 productive hours per week**
 
-This number is retained because it is the only explicit weekly capacity currently declared in the repository and prior plan. If a different realistic weekly capacity is set, rescale the blocks instead of silently increasing daily workload.
+Cadence:
 
-Study cadence:
+- Tuesday through Sunday are study days.
+- Monday is a fixed rest day.
+- Time estimates are planning estimates, not deadlines.
+- If a block finishes early, move to the next scheduled block.
+- If a block runs long, stop at a sensible checkpoint and roll the unfinished work forward.
+- Do not use Monday to catch up.
+- Do not add extra courses or material just because time remains.
+- If sustained capacity later drops below 30 hours, extend the timeline rather than compressing the work.
 
-- Tuesday through Sunday: study days
-- Monday: fixed rest day
-- unfinished work rolls into the next study day or next week
-- Monday is never converted into catch-up time
+Official curriculum start:
 
-All time blocks are estimates.
+**September 15, 2026**
 
-For every block:
+## Academic honesty boundary
 
-- if the "done when" condition is met early, move to the next block
-- if the estimate expires first, stop at a sensible checkpoint, record the blocker, and roll the unfinished work forward
-- do not add hours merely to preserve a calendar label
-- competency gates matter more than exact minutes
+All CS50 assessment code stays in CS50's own environment:
 
-Calendar dates are maximum windows, not mastery guarantees.
+https://cs50.dev/
 
-If a competency is genuinely completed early, move to the next prerequisite-compatible topic.
-
----
-
-# 5. Advancement Standard
-
-Three competency levels are used:
-
-### Familiar
-Seen the concept and can recognize it.
-
-### Functional
-Can perform the task with documentation. This is usually enough to advance.
-
-### Independent
-Can perform common operations without a tutorial and explain the reasoning.
-
-Do **not** wait for mastery before progressing.
-
-The curriculum is competency-gated, not perfection-gated.
-
----
-
-# 6. Academic Honesty and AI-Assistance Rules
-
-## CS50 boundary
-
-All official CS50 assessment code stays in **cs50.dev**.
-
-This public repository contains only:
-
-- original non-CS50 practice programs
-- original projects
-- notes
-- curriculum files
-- tooling and CI configuration
-
-Do not copy CS50 problem-set code into this public repository, even after submission.
+This public repository contains only original non-CS50 practice, original projects, notes, curriculum files, and tooling.
 
 For CS50 assessments:
 
-- use https://cs50.dev/
-- follow https://cs50.harvard.edu/python/honesty/
-- do not use ChatGPT, Claude, Copilot, Gemini, or other external AI systems to suggest or complete answers or lines of code
+- follow the official academic honesty policy: https://cs50.harvard.edu/python/honesty/
+- do not publish CS50 problem-set solutions in this repository
+- do not use external AI systems to suggest or complete CS50 assessment answers or code
 - use CS50's own AI tools only where the course permits them
-- do not publish assessment solutions
 
-## Outside CS50 assessments
+## Career path
 
-AI may be used for:
+The primary career path is not "zero to AI Engineer in one jump."
 
-- explanations
-- debugging help after an attempt
-- code review
-- practice questions
-- comparing approaches
-- documentation lookup
-- architecture discussion
+The main ladder is:
 
-Preferred requests include:
+1. Junior Software Engineer, Software Engineer I, QA Automation, Junior SDET, or technical support engineering with scripting.
+2. Python backend, API, application, or data-oriented software work.
+3. ML-adjacent or applied-AI feature work once software and ML foundations are functional.
+4. AI Engineer, Applied AI Engineer, LLM Engineer, or ML Engineer after production software experience and stronger AI-system evidence.
 
-- Explain why this error occurs.
-- Give me one hint, not the solution.
-- Ask me questions that lead me to the answer.
-- Review my solution after I finish it.
-- Give me a similar practice problem.
+The curriculum still builds toward AI engineering from the start, but the first professional role does not need to carry an AI title.
 
-If the learner cannot explain the important lines and decisions, the work is not considered learned.
+## Hiring realism for August to September 2027
 
----
+Assessment:
 
-# 7. One-Year Roadmap
+**A direct AI Engineer hire as a first professional software role by August to September 2027 is low likelihood.**
 
-The phases intentionally overlap. Software engineering, ML theory, and AI-system work are not treated as a strict waterfall.
+I am not assigning a numeric probability because I could not find a reliable public dataset that tracks the exact cohort: people starting from zero, self-taught or newly trained, with no professional software experience, and then measures direct AI Engineer hiring within one year.
 
-## Phase 1 - Programming and Engineering Foundation
-**September to November 2026**
+Evidence that pushes the estimate down:
 
-Core skills:
+- Stanford's 2026 AI Index reports that employment for software developers ages 22 to 25 fell nearly 20% from 2024, indicating a difficult early-career software market.
+- LinkedIn's 2026 labor-market reporting says entry-level hiring remains weak even while AI roles continue to grow.
+- A current convenience sample of six live AI or applied-AI postings checked on September 16, 2026 all required at least 3 years of relevant professional experience, and four required 5 or more years. This is not a representative sample, but it shows how common experience requirements are.
 
-- Python
-- Git
-- GitHub
-- Linux shell
-- SQL
-- relational database design
-- testing fundamentals
-- practical mathematics for ML
-- basic data structures and algorithms
+Evidence that keeps the path worth pursuing:
 
-Primary outcomes:
+- LinkedIn reports that U.S. AI job postings roughly doubled since 2023 and that AI Engineer is now the most common AI role on LinkedIn.
+- Stanford reports strong growth in employer demand for Python, cloud, scalability, workflow management, generative AI, and agentic-system skills.
 
-- independently write small Python programs
-- read tracebacks and debug basic failures
-- use Git safely
-- work in a Linux shell
-- design/query relational databases
-- write tests
-- understand where Python fits in a larger software system
+What remains unknown:
 
-## Phase 2 - Backend + First LLM API System + ML Theory
-**November 2026 to January 2027**
+- There is no trustworthy public conversion rate from one year of self-study to AI Engineer employment.
+- Job-title definitions vary substantially across employers.
+- Portfolio quality, internships, contract work, networking, location, interview performance, and whether professional software experience is gained during the year can materially change the outcome.
 
-Tracks run in parallel.
+Therefore, August to September 2027 remains an **AI application checkpoint**, not the base-case first job outcome. The base-case career strategy is to gain professional software or backend experience as early as possible, then move into ML-adjacent and AI-engineering work.
 
-### Backend track
+Evidence sources:
 
-- HTTP
-- REST
-- FastAPI
-- Pydantic
-- PostgreSQL
-- authentication concepts
-- pytest
-- API testing
-- structured logging
-- environment variables and secrets
-- GitHub Actions
-- cloud deployment
-- containers when justified
+- LinkedIn, AI jobs and hiring, August 2026: https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge
+- LinkedIn, Labor Market Report 2026: https://economicgraph.linkedin.com/research/labor-market-report-2026
+- Stanford HAI, 2026 AI Index Economy: https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
+- Stanford HAI, AI jobs chapter: https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf
 
-### Small LLM API project
+Current posting sample used only as directional evidence:
 
-Build a small API-backed AI application after basic FastAPI and HTTP skills are functional.
+- ScaleTech AI Engineer, 5+ years software engineering: https://jobs.lever.co/scale3c/813b5aeb-dadf-4926-9205-1e26290b8c82
+- BLEN AI Engineer, 5+ years professional software engineering: https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74
+- United Tech AI Engineer, 5+ years production Python: https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b
+- RYZ Labs Full Stack AI Engineer, 5+ years: https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44
+- Lodgify AI Engineer, 3+ years: https://jobs.lever.co/lodgify/d99f7960-cf71-4fd9-b87a-08066b00d07e
+- Simbe Applied AI Engineer, 3+ years: https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681
 
-The project should include:
+## Long-range roadmap
 
-- one hosted LLM API
-- clear system/user input boundaries
-- structured output where appropriate
-- a small set of hand-written evaluation cases
-- basic pass/fail or rubric-based evals
-- latency and cost notes
-- error handling
-- no agent-framework requirement
+### Phase 1: Programming and engineering foundation
+**September 15 to November 2, 2026**
 
-The purpose is to learn early how an LLM fits inside software without skipping software-engineering fundamentals.
+Core outcomes:
 
-### ML theory in parallel
+- Python fundamentals through CS50P
+- basic Git and GitHub workflow
+- shell and developer-tool fluency
+- debugging and testing habits
+- practical ML mathematics begins in Week 3
 
-Begin or continue:
+CS50P:
+https://cs50.harvard.edu/python/
 
-- linear algebra
-- calculus for optimization
-- probability/statistics
-- supervised-learning concepts
-- loss functions
-- overfitting/underfitting
-- evaluation metrics
+### Phase 2: SQL, ML theory, backend foundations, and first LLM API system
+**November 3, 2026 to January 31, 2027**
 
-## Phase 3 - Applied Machine Learning Engineering
-**January to March 2027**
+The work is parallel, but capacity is protected.
 
-Core skills:
+During November and most of December, CS50 SQL and ML mathematics get priority.
+
+FastAPI and the small LLM API project begin only when SQL capacity clears, expected in late December if SQL is on schedule. They do not compete with the SQL deadline.
+
+Phase 2 outcomes:
+
+- relational database design and SQL
+- continued probability, statistics, linear algebra, and optimization
+- HTTP and REST
+- FastAPI and Pydantic
+- PostgreSQL application work
+- one small hosted-LLM API application
+- structured outputs where appropriate
+- a small hand-written eval set
+- basic latency, cost, and error-handling measurements
+
+CS50 SQL:
+https://cs50.harvard.edu/sql/
+
+FastAPI:
+https://fastapi.tiangolo.com/tutorial/
+
+### Phase 3: Applied machine learning engineering
+**February to March 2027**
+
+Core outcomes:
 
 - NumPy
 - Pandas
-- data cleaning
-- exploratory analysis
 - scikit-learn
-- feature engineering
-- preprocessing pipelines
-- train/validation/test splits
+- data cleaning and feature engineering
+- train, validation, and test discipline
 - cross-validation
-- supervised learning
-- unsupervised learning
-- metrics
-- model selection
-- experiment tracking concepts
-- model serving
+- model evaluation
+- model serving through an API
+- an end-to-end ML project
 
-Primary project flow:
+### Phase 4: Deep learning
+**April to May 2027**
 
-real dataset -> cleaning -> feature engineering -> model selection -> cross-validation -> evaluation -> API -> deployment -> monitoring
-
-## Phase 4 - Deep Learning
-**March to May 2027**
-
-Core skills:
+Core outcomes:
 
 - PyTorch
-- tensors
-- datasets/dataloaders
+- tensors and dataloaders
 - neural networks
-- loss functions
-- optimizers
-- training loops
-- validation
+- training and validation loops
 - embeddings
-- NLP fundamentals
 - attention
-- transformers
+- transformer fundamentals
 
-The goal is engineering competence, not research-scientist depth.
+PyTorch tutorials:
+https://docs.pytorch.org/tutorials/
 
-## Phase 5 - LLM Engineering, Retrieval, and Evals
-**May to July 2027**
+### Phase 5: LLM engineering, retrieval, and evals
+**June to July 2027**
 
-Core skills:
+Core outcomes:
 
 - LLM APIs
 - Hugging Face Transformers
-- tokenization
-- embeddings
-- prompt/context design
-- structured outputs
-- function/tool calling
-- retrieval
-- vector search
-- RAG
-- chunking
-- reranking concepts
+- embeddings and vector search
+- retrieval-augmented generation
+- structured outputs and tool calling
 - grounding
-- citations/source attribution
-- multimodal usage
-- eval datasets
-- regression evals
-- hallucination/grounding checks
+- eval datasets and regression evals
 - tracing and observability
 - latency and cost measurement
 
-Evals are treated as part of LLM engineering, not as an end-stage add-on.
+Hugging Face LLM course:
+https://huggingface.co/learn/llm-course/
 
-## Phase 6 - Agentic and Production AI Systems
-**July to September 2027**
+### Phase 6: Agentic and production AI systems
+**August to September 2027**
 
-Core skills:
+Core outcomes:
 
-- agents
-- tool use
+- tool-using agents
 - MCP
-- memory/state
-- workflow orchestration
+- state and workflow orchestration
 - human-in-the-loop patterns
-- multi-agent patterns when justified
-- queues
-- asynchronous processing
-- caching
-- model routing
-- fallback strategies
+- queues and asynchronous work
+- model routing and fallbacks
+- prompt-injection defenses
 - permissions and least privilege
-- prompt-injection defense
-- data-exfiltration controls
-- AWS
-- production deployment
-- monitoring
-- CI/CD
-- reliability engineering
+- AWS deployment
+- monitoring and CI/CD
+- production reliability
 
-Target specialization:
+This phase is a specialization layer on top of software engineering, not a substitute for it.
 
-**Production AI Systems / Agentic AI Engineering**
+## MIT Missing Semester replaces LFS101
 
----
+The formal Linux Foundation LFS101 course is removed.
 
-# 8. Semester 1 - Foundation Semester
+MIT Missing Semester 2026 is the tooling and shell track for Semester 1:
 
-**Official start:** September 15, 2026  
-**End:** December 21, 2026  
-**Length:** 14 weeks  
-**Target:** about 30 productive hours per week  
-**Study days:** Tuesday through Sunday  
-**Monday:** fixed rest day
+| Week | Lecture | Direct link |
+| --- | --- | --- |
+| 1 | Course Overview + Introduction to the Shell | https://missing.csail.mit.edu/2026/course-shell/ |
+| 2 | Command-line Environment | https://missing.csail.mit.edu/2026/command-line-environment/ |
+| 3 | Development Environment and Tools | https://missing.csail.mit.edu/2026/development-environment/ |
+| 4 | Debugging and Profiling | https://missing.csail.mit.edu/2026/debugging-profiling/ |
+| 5 | Version Control and Git | https://missing.csail.mit.edu/2026/version-control/ |
+| 6 | Packaging and Shipping Code | https://missing.csail.mit.edu/2026/shipping-code/ |
+| 7 | Agentic Coding | https://missing.csail.mit.edu/2026/agentic-coding/ |
+| 8 | Beyond the Code | https://missing.csail.mit.edu/2026/beyond-code/ |
+| 9 | Code Quality | https://missing.csail.mit.edu/2026/code-quality/ |
 
-Three tracks:
+No additional Linux course is scheduled in Semester 1.
 
-- Track A: Programming and Software Engineering
-- Track B: Developer Tools and Data
-- Track C: Mathematics for AI
+## Weeks 8 to 14 capacity plan
 
-Math starts in **Week 3** and continues in parallel.
+Every row fits the 30-hour weekly ceiling.
 
-CS50P runs through **Week 7**, ending November 2, 2026.
+FastAPI and the LLM project are intentionally absent from Weeks 8 to 14 unless SQL finishes early. This is the correction for the previous overload.
 
-SQL becomes the primary database course in **Week 8**.
+| Week | Dates | CS50 SQL | ML math / statistics | Missing Semester | Deadline slack / rollover | Total |
+| --- | --- | ---: | ---: | ---: | ---: | ---: |
+| 8 | Nov 3-9 | 19h | 8h | 1h | 2h | 30h |
+| 9 | Nov 10-16 | 19h | 8h | 1h | 2h | 30h |
+| 10 | Nov 17-23 | 20h | 8h | 0h | 2h | 30h |
+| 11 | Nov 24-30 | 20h | 8h | 0h | 2h | 30h |
+| 12 | Dec 1-7 | 20h | 8h | 0h | 2h | 30h |
+| 13 | Dec 8-14 | 21h | 7h | 0h | 2h | 30h |
+| 14 | Dec 15-21 | 20h | 6h | 0h | 4h | 30h |
 
-Shell basics start in Week 1. Formal Linux study expands later in the semester.
+The SQL sequence is Querying, Relating, Designing, Writing, Viewing, Optimizing, Scaling, then the final project. The 19 to 21 hours allocated to SQL are course-wide weekly budgets, not promises that every unit will take the same amount of time.
 
----
+## CS50 SQL deadline and fallback
 
-# 9. Semester 1 Courses
+Current official deadline:
 
-## Course 1 - Harvard CS50P: Introduction to Programming with Python
+**December 31, 2026 at 23:59 UTC**
 
-Official course:
-https://cs50.harvard.edu/python/
+In U.S. Eastern Time on that date, this is **6:59 PM EST**.
 
-Units:
+Official problem-set deadline page:
+https://cs50.harvard.edu/sql/psets/
 
-0. Functions and Variables
-1. Conditionals
-2. Loops
-3. Exceptions
-4. Libraries
-5. Unit Tests
-6. File I/O
-7. Regular Expressions
-8. Object-Oriented Programming
-9. Et Cetera
-10. Final Project
+Official final-project page:
+https://cs50.harvard.edu/sql/project/
 
-Planned completion:
+Official FAQ:
+https://cs50.harvard.edu/sql/faqs/
 
-**Week 7, ending November 2, 2026.**
+The current FAQ says:
 
-CS50P final-project requirements should be followed exactly according to the current course specification.
+> "best to assume the final deadline is 31 December 2026."
 
-Core competency:
+It also says:
 
-- write Python independently
-- structure functions
-- validate input
-- handle errors
-- use libraries
-- test code
-- work with files
-- use regex
-- understand OOP
+> "We cannot make any exceptions to the deadlines for any reason."
 
----
+The FAQ says that if the course is extended, work completed in 2026 can carry into 2027. An extension is not guaranteed, so this plan does not rely on it.
 
-## Course 2 - Git and GitHub
+Internal SQL target:
 
-Week 1 Git is intentionally narrow.
+- Week 14 ends December 21.
+- Target the final project for completion by December 18 when progress allows.
+- December 19 to 21 is internal course slack.
+- December 22 to 30 is a deadline reserve. At the normal Tuesday-through-Sunday cadence, this creates up to 40 additional study hours before the official deadline while still preserving Monday rest.
 
-Required in Week 1:
+Fallback if SQL slips:
 
-- clone
-- status
-- add
-- commit
-- push
-- log
+1. Pause FastAPI, LLM API work, and any other Phase 2 implementation that has not already begun.
+2. Use the December 22 to 30 reserve exclusively for unfinished required CS50 SQL work.
+3. Do not use Monday December 28.
+4. Treat December 30 as the personal submission deadline to avoid relying on the final hours of December 31.
+5. If required work remains after the official deadline, do not assume late submissions will be accepted. Check the current CS50 SQL FAQ and Gradebook.
+6. If CS50 formally extends the course, continue under the published extension policy. If it does not, the roadmap continues with the underlying SQL skills, but the plan does not pretend the certificate can still be completed late.
 
-Delayed until **Week 3 or later**:
+## Portfolio progression
 
-- branches
-- diff
-- pull requests
-- GitHub Flow
-- GitHub Foundations certification path
+The portfolio should show increasing production depth:
 
-The goal in Week 1 is to form a reliable basic source-control habit without overloading the first Python week.
-
-## MIT Missing Semester shell basics
-
-Week 1 includes one hour using:
-
-https://missing.csail.mit.edu/2026/course-shell/
-
-Required skills:
-
-- pwd
-- ls
-- cd
-- mkdir
-- running a Python file from the shell
-
----
-
-## Course 3 - Harvard CS50 SQL
-
-Official course:
-https://cs50.harvard.edu/sql/
-
-Units:
-
-0. Querying
-1. Relating
-2. Designing
-3. Writing
-4. Viewing
-5. Optimizing
-6. Scaling
-7. Final project
-
-Core concepts:
-
-- SELECT
-- WHERE
-- ORDER BY
-- GROUP BY
-- JOIN
-- subqueries
-- primary keys
-- foreign keys
-- normalization
-- CREATE TABLE
-- INSERT
-- UPDATE
-- DELETE
-- views
-- indexes
-- transactions
-- constraints
-- database design
-- SQLite
-- PostgreSQL concepts
-
-Starts after CS50P or immediately when CS50P is completed early.
-
----
-
-## Course 4 - Linux Foundation LFS101: Introduction to Linux
-
-Primary objective:
-
-Become comfortable enough with Linux to work in cloud and production environments. Do not turn this into sysadmin specialization.
-
-Commands to practice:
-
-```bash
-pwd
-ls
-cd
-mkdir
-touch
-cp
-mv
-rm
-cat
-less
-grep
-find
-head
-tail
-chmod
-ps
-top
-kill
-curl
-wget
-ssh
-pip
-python
-```
-
-Concepts:
-
-- filesystem
-- users/groups
-- permissions
-- processes
-- package management
-- shell
-- networking
-- environment variables
-- SSH
-- logs
-- Bash scripting
-- pipes and redirection
-
----
-
-## Course 5 - DeepLearning.AI Mathematics for Machine Learning and Data Science
-
-Starts in **Week 3** and continues through the semester in parallel with Python, SQL, and later backend work.
-
-Core areas:
-
-### Linear Algebra
-- scalars
-- vectors
-- matrices
-- dot products
-- systems of equations
-- linear transformations
-- eigenvalues/eigenvectors
-
-### Calculus
-- functions
-- derivatives
-- partial derivatives
-- gradients
-- optimization
-- gradient descent
-
-### Probability / Statistics
-- random variables
-- distributions
-- expected value
-- variance
-- Gaussian distribution
-- sampling
-- estimation
-- confidence intervals
-- hypothesis testing
-- Bayesian concepts
-
-The objective is practical ML mathematics, not proof-heavy pure mathematics.
-
----
-
-# 10. Semester 1 Weekly Schedule
-
-## Week 1 - Sep 15 to Sep 21
-
-- CS50P Functions and Variables
-- CS50P Conditionals
-- official CS50 Problem Set 0 and early Problem Set 1 work in cs50.dev only
-- original non-CS50 Python practice in this repository
-- Git: clone, status, add, commit, push, log
-- one hour of shell basics
-- scheduled traceback/debugging practice
-- Personal Budget Calculator v0.1
-- Monday rest
-
-## Week 2 - Sep 22 to Sep 28
-
-- CS50P Loops
-- CS50P Exceptions
-- finish any rolled Week 1 work before advancing
-- original loop/exception practice
-- Git repetition using only the Week 1 command set
-- no formal GitHub Foundations yet
-
-## Week 3 - Sep 29 to Oct 5
-
-- CS50P Libraries
-- Git branches and diff
-- GitHub Flow and pull requests
-- GitHub Foundations path begins
-- math begins: vectors, matrices, linear equations
-
-## Week 4 - Oct 6 to Oct 12
-
-- CS50P Unit Tests
-- pytest
-- GitHub collaboration
-- matrix operations
-- dot products
-- linear transformations
-
-## Week 5 - Oct 13 to Oct 19
-
-- CS50P File I/O
-- regular expressions
-- GitHub Foundations study
-- eigenvalues/eigenvectors
-
-## Week 6 - Oct 20 to Oct 26
-
-- CS50P Object-Oriented Programming
-- GitHub Foundations study/exam prep
-- calculus
-- derivatives
-- optimization
-
-## Week 7 - Oct 27 to Nov 2
-
-- CS50P Et Cetera
-- CS50P final project
-- finish core GitHub Foundations work
-- gradients and gradient descent
-
-## Week 8 - Nov 3 to Nov 9
-
-- CS50 SQL Querying
-- Linux filesystem/terminal
-- math continuation
-- first backend/HTTP orientation if the Python competency gate is met
-
-## Week 9 - Nov 10 to Nov 16
-
-- SQL Relating
-- Linux files/text
-- probability fundamentals
-- backend basics continue where ready
-
-## Week 10 - Nov 17 to Nov 23
-
-- SQL Designing
-- Linux users/permissions/processes
-- probability/statistics
-- FastAPI introduction when prerequisites are met
-
-## Week 11 - Nov 24 to Nov 30
-
-- SQL Writing
-- Bash/environment variables
-- statistics
-- FastAPI/Pydantic practice
-- first small LLM API experiment may begin if HTTP/API basics are functional
-
-## Week 12 - Dec 1 to Dec 7
-
-- SQL Viewing
-- networking/HTTP/SSH/curl
-- statistics/sampling
-- small LLM API project plus basic eval cases
-
-## Week 13 - Dec 8 to Dec 14
-
-- SQL Optimizing
-- Bash scripts
-- confidence intervals/hypothesis testing
-- backend/LLM project continuation
-
-## Week 14 - Dec 15 to Dec 21
-
-- SQL Scaling
-- SQL final project
-- Semester 1 math review
-- shell/Linux review
-- backend/LLM project checkpoint
-- Semester 1 competency review
-
----
+1. Original Python project.
+2. Original SQL/database project.
+3. Production-style FastAPI/PostgreSQL backend.
+4. Small LLM API application with evals.
+5. End-to-end ML system.
+6. Flagship production AI system with retrieval, tools, evals, observability, security, and cloud deployment.
 
-# 11. Week 1 Operating Rules
+CS50 assessment code is never a public portfolio project.
 
-Detailed day-by-day work lives in:
+## Employment checkpoints
 
-semester-1/week-01/README.md
+These are competency checkpoints, not guarantees.
 
-and the revised Week 1 PDF.
+### Foundation checkpoint
+Start applying to:
 
-Week 1 completion gate:
-
-1. Write a small original Python program without copying a tutorial.
-2. Explain variables, types, functions, parameters, arguments, and return values.
-3. Use basic conditionals correctly.
-4. Read and investigate a basic Python traceback.
-5. Use basic shell navigation.
-6. Use clone, status, add, commit, push, and log for original repository work.
-7. Keep all CS50 assessment code in cs50.dev.
-8. Keep Monday as a rest day.
+- software internships and apprenticeships
+- Junior Software Engineer / Software Engineer I where requirements fit
+- QA Automation / Junior SDET
+- scripting-oriented technical support or application support
 
----
-
-# 12. Portfolio Progression
-
-All projects in this public repository are original non-CS50 work.
-
-Do not reuse public-repo project code as a CS50 assessment submission.
-
-## Project 1 - Personal Budget Calculator / Expense Tracker
-
-Demonstrate:
-
-- Python
-- functions
-- input validation
-- exceptions
-- file handling
-- tests
-- Git
-- documentation
-
-## Project 2 - Sports Analytics Database
-
-Demonstrate:
-
-- relational modeling
-- SQL
-- joins
-- indexes
-- constraints
-- query design
-- optimization
-- documentation
-
-## Project 3 - Production Backend Service
-
-Expected components:
-
-- FastAPI
-- PostgreSQL
-- validation
-- tests
-- authentication/authorization pattern
-- CI
-- logging
-- deployment
-
-## Project 4 - Small LLM API Application
-
-Expected components:
-
-- hosted LLM API
-- FastAPI integration
-- structured output where useful
-- hand-written eval cases
-- error handling
-- latency/cost notes
-
-## Project 5 - End-to-End ML System
-
-Expected components:
-
-- real dataset
-- preprocessing
-- model selection
-- evaluation
-- API
-- deployment
-- monitoring
-
-## Project 6 - Flagship Production AI System
-
-Expected architecture:
-
-User/Client -> API -> Auth -> AI orchestration -> retrieval/model/tools -> persistent storage -> evals/observability -> cloud deployment
-
----
-
-# 13. Phase 2 Execution - November 2026 to January 2027
-
-Phase 2 is deliberately parallel rather than sequential.
-
-## Track A - Backend Engineering
-
-- FastAPI
-- HTTP/REST
-- Pydantic
-- PostgreSQL
-- authentication concepts
-- validation
-- testing
-- logging
-- GitHub Actions
-- deployment
-
-## Track B - First LLM API Project
-
-After FastAPI and HTTP basics are functional:
-
-- call one hosted LLM API
-- expose the capability through a small backend
-- use structured output where appropriate
-- create a small set of hand-written eval cases
-- record latency and cost
-- handle errors explicitly
-
-No agent framework is required here.
-
-## Track C - ML Theory and Data Skills
-
-Run in parallel:
-
-- linear algebra
-- calculus/optimization
-- probability/statistics
-- NumPy
-- Pandas
-- supervised-learning concepts
-- model evaluation
-
-## DSA Essentials
-
-Add gradually:
-
-- arrays
-- hash maps
-- stacks
-- queues
-- trees
-- graphs
-- Big-O
-- recursion
-- searching
-- sorting
-
-Do not turn this into a hundreds-of-LeetCode grind.
-
----
-
-# 14. Later Technical Curriculum
-
-## Machine Learning Stack
-
-- NumPy
-- Pandas
-- scikit-learn
-- statistical evaluation
-- feature engineering
-- pipelines
-- experiment tracking
-- model serving
-
-## Deep Learning Stack
-
-- PyTorch
-- neural networks
-- optimization
-- embeddings
-- NLP
-- attention
-- transformers
-
-## LLM Engineering Stack
-
-- Hugging Face
-- LLM APIs
-- structured outputs
-- embeddings
-- retrieval
-- vector search
-- RAG
-- reranking
-- tool calling
-- multimodal AI
-- eval datasets
-- regression evals
-- grounding/hallucination checks
-- tracing
-- latency/cost measurement
-
-Evals belong next to the LLM work from the beginning.
-
-## Agentic AI Stack
-
-- agents
-- tool orchestration
-- MCP
-- state
-- memory
-- workflows
-- human-in-the-loop
-- multi-agent systems only when justified
-
-## AI Reliability / Evaluation
-
-This section deepens the eval discipline introduced during LLM API work.
-
-- evaluation datasets
-- regression tests for AI behavior
-- hallucination checks
-- grounding checks
-- tracing
-- observability
-- latency
-- token usage
-- cost optimization
-- guardrails
-- model fallbacks
-- error handling
-
-## Security
-
-- secret management
-- IAM concepts
-- least privilege
-- prompt injection
-- data exfiltration risks
-- tool permissions
-- input/output validation
-- dependency security
-
-## Cloud / Production
-
-Primary cloud target:
-
-**AWS**
-
-Likely concepts/services later:
-
-- IAM
-- S3
-- compute
-- networking fundamentals
-- CloudWatch
-- Lambda where appropriate
-- ECS/container deployment where appropriate
-- Bedrock where appropriate
-- SageMaker where appropriate
-- queues
-- caching
-- managed databases
-
-Cloud choice should be architecture-driven, not certification-driven.
-
----
-
-# 15. Production AI Architecture Skills
-
-By the final phase, the learner should understand and practice:
-
-- API architecture
-- event-driven systems
-- queues
-- asynchronous jobs
-- caching
-- database design
-- vector search
-- model routing
-- fallbacks
-- rate limits
-- retries
-- idempotency
-- structured logs
-- metrics
-- traces
-- cost control
-- latency budgets
-- scalable inference concepts
-- distributed-system fundamentals
-- human escalation paths
-
----
-
-# 16. Flagship Production AI Project
-
-The final flagship should resemble a real production AI application rather than a notebook demo.
-
-Expected architecture:
-
-```text
-User / Client
-    ↓
-API
-    ↓
-Authentication / Authorization
-    ↓
-AI Orchestration Layer
-    ↓
-────────────────────────────────────
-│ Retrieval / Vector Search         │
-│ LLM / Model                       │
-│ Tools / APIs                      │
-│ Structured Outputs               │
-│ Agent / Workflow State            │
-────────────────────────────────────
-    ↓
-PostgreSQL / persistent storage
-    ↓
-Evaluation / Observability / Tracing
-    ↓
-Cloud deployment
-```
-
-Expected production characteristics:
-
-- authentication
-- PostgreSQL
-- RAG when justified
-- source grounding/citations
-- evaluation suite
-- observability
-- caching
-- error handling
-- cost tracking
-- latency tracking
-- CI/CD
-- security controls
-- cloud deployment
-
-Existing real projects may evolve into capstones if technically appropriate. Do not build artificial resume projects solely to check boxes.
-
----
-
-# 17. Certifications - Priority Rules
-
-Certifications are secondary to real engineering ability.
-
-Early certification:
-
-- GitHub Foundations GH-900
-
-Possible later certifications when the underlying skills exist:
-
-- AWS Machine Learning Engineer Associate
-- NVIDIA Generative AI / LLM credential where relevant
-- Terraform Associate where infrastructure-as-code becomes useful
-- other AI/cloud credentials only if they support a job target
-
-Do **not** rush advanced cloud or AI certifications before practical experience.
-
-Avoid obsolete certifications.
-
----
-
-# 18. What Is Intentionally Deprioritized
-
-Not part of the immediate pathway:
-
-- C
-- C++
-- Java certification
-- JavaScript frameworks during foundation phase
-- React during foundation phase
-- Kubernetes early
-- Terraform early
-- Spark early
-- Kafka early
-- Airflow early
-- multiple cloud platforms
-- TensorFlow unless a project/job requires it
-- advanced LeetCode grind
-- advanced pure mathematics before practical ML
-- fine-tuning LLMs before basic LLM systems are understood
-- agent frameworks before APIs/RAG/evals/tool use are understood
-
-These tools are not necessarily bad. They are simply lower priority for this target.
-
----
-
-# 19. Employment Strategy
-
-The goal is to begin earning engineering experience before the entire AI curriculum is finished.
-
-## After Semester 1
-
-Reasonable targets:
-
-- Junior Software Engineer
-- Software Engineer I
-- Junior Developer
-- Python development/support
-- QA Automation
-- Junior SDET
-- Application Support Developer
-- Technical Support Engineer with scripting
-- software internships/apprenticeships
-- some junior data-oriented roles using Python/SQL
-
-Do **not** market as an AI Engineer yet solely from Semester 1.
-
-## After backend phase
-
-Stronger targets:
-
-- Python Backend Engineer
-- Software Engineer I
-- API/backend roles
-- platform-support engineering
-- data/backend roles
-
-## After ML phase
-
+### Backend checkpoint
 Add:
 
-- junior ML-oriented software roles
-- applied ML roles
-- data/ML engineering roles where experience requirements fit
+- Python backend roles
+- API and application engineering roles
+- junior data/backend roles
 
-## Summer/Fall 2027
+### ML-adjacent checkpoint
+Add:
 
-Begin serious applications for:
+- applied ML software roles
+- ML-adjacent engineering roles
+- data/ML engineering roles where the requirements match actual experience
 
-- AI Engineer
-- Applied AI Engineer
-- LLM Engineer
-- AI Software Engineer
-- Agentic AI Engineer
-- ML Engineer where skill alignment fits
+### AI checkpoint, August to September 2027
+Apply selectively to AI Engineer, Applied AI Engineer, AI Software Engineer, LLM Engineer, and suitable ML Engineer roles if the production portfolio and interview competency are there.
 
-Hiring is not guaranteed by a date. Competency is the primary gate.
-
----
-
-# 20. Resume Story We Are Building
-
-Desired eventual positioning:
-
-> Software Engineer with production Python/backend/cloud experience, machine learning fundamentals, and hands-on experience building, evaluating, deploying, and monitoring LLM/agentic AI systems.
-
-Avoid presenting as:
-
-> Someone who completed many AI courses and certificates.
-
-The portfolio and deployed engineering work should provide the evidence.
-
----
-
-# 21. Repository Structure
-
-```text
-ai-engineering-journey/
-├── .devcontainer/
-│   └── devcontainer.json
-├── .github/
-│   └── workflows/
-│       └── python-ci.yml
-├── semester-1/
-│   ├── week-01/
-│   │   ├── exercises/
-│   │   ├── projects/
-│   │   └── notes/
-│   ├── week-02/
-│   ├── week-03/
-│   └── ...
-├── projects/
-├── tests/
-├── .env.example
-├── .gitignore
-├── requirements.txt
-├── pyproject.toml
-└── README.md
-```
-
-As the curriculum progresses, additional semester/phase directories can be added.
-
----
-
-# 22. Engineering Standards for This Repository
-
-- Keep dependencies minimal.
-- Never commit API keys, credentials, tokens, `.env`, or secrets.
-- Prefer reproducible cloud environments.
-- Use meaningful commits.
-- Use branches and pull requests as Git competence grows.
-- Test before pushing.
-- Keep exercises separate from portfolio projects.
-- Avoid unnecessary abstractions.
-- Avoid premature frameworks.
-- Introduce tools only when the curriculum or a real project requires them.
-- Prefer official documentation and authoritative courses.
-- Fix CI failures rather than ignoring them.
-- Document important architecture decisions.
-- Do not allow AI assistants to silently change the curriculum sequence without a clear technical reason.
-
----
-
-# 23. Instructions for AI Assistants and Coding Agents
-
-Any AI working in this repository should follow these rules:
-
-1. Read this README before making curriculum or architecture decisions.
-2. Determine the learner's current phase before introducing new tooling.
-3. Do not jump directly to advanced AI frameworks while fundamentals are incomplete.
-4. Do not provide, hint at, or commit solutions to CS50 assessments. For non-CS50 practice, prefer explanation, debugging, and review over doing the work.
-5. Prefer explanation, debugging guidance, review, and scaffolding during foundational learning.
-6. Keep the environment cloud-first and lightweight.
-7. Do not add Railway to this learning repository.
-8. Do not install heavyweight ML/AI packages before their phase unless a real task requires them.
-9. Preserve portfolio-quality engineering practices.
-10. If a competency is completed early, accelerate to the next prerequisite-compatible skill.
-11. If a proposed tool does not materially improve employability or production AI competence, question whether it belongs in the roadmap.
-12. The long-term specialization is **Production AI Systems / Agentic AI Engineering**, backed by software engineering and ML fundamentals.
-
----
-
-# 24. Current Status
-
-Current phase:
-
-**Semester 1 - Week 1**
-
-Current source-of-truth Week 1 file:
-
-semester-1/week-01/README.md
-
-Follow the revised Week 1 PDF and this repository, not older schedules.
-
----
-
-# 25. Definition of Success
-
-The objective is not simply to finish this README's checklist.
-
-Success means being able to build and defend a production-quality AI system:
-
-- explain the code
-- explain the data
-- explain the model choice
-- explain the evaluation
-- explain the architecture
-- explain failure modes
-- explain security boundaries
-- explain cost/latency tradeoffs
-- deploy it
-- monitor it
-- improve it
-
-That is the standard this curriculum is designed to reach.
-
-
----
-
-# 26. Python Learning Protocol - Problem-Solving Layer
-
-This protocol supplements CS50P. It does **not** replace the curriculum or add a second full Python course.
-
-The useful ideas are:
-
-- use one primary long-form Python course
-- practice writing code instead of only watching lessons
-- deliberately train problem-solving
-- visualize execution when concepts are hard to understand
-- use AI as a tutor rather than an answer generator
-- understand where Python fits in a real software/AI system
-- begin building small original projects before feeling completely ready
-
-## 26.1 One-Course Rule
-
-**CS50P remains the canonical Python course.**
-
-Do not add Zero to Mastery, Bro Code, Automate the Boring Stuff, or another full beginner Python course at the same time.
-
-Supplemental resources are allowed only for targeted practice or visualization.
-
-Reason:
-
-> Multiple beginner courses create repetition without necessarily increasing independent problem-solving ability.
-
-## 26.2 Daily Problem-Solving Warm-Up
-
-After the learner is functional with variables, functions, and conditionals, begin each Python study session with a short problem-solving warm-up.
-
-Recommended resource:
-
-https://www.codewars.com/kata/search/python
-
-Rules:
-
-- Python only
-- begin with **8 kyu**
-- one kata per study session
-- target 10-15 minutes
-- hard cap: 20 minutes before switching to the stuck protocol
-- do not copy another solution before attempting the problem
-- after solving, compare one or two community solutions and identify one cleaner idea
-- do not allow Codewars to replace the day's main curriculum work
-
-Progression:
-
-~~~text
-8 kyu
-  ↓
-comfortable solving independently
-  ↓
-7 kyu
-  ↓
-DSA phase later
-  ↓
-selected LeetCode problems
-~~~
-
-There is no requirement to grind large numbers of problems.
-
-## 26.3 Stuck Protocol
-
-Feeling stuck is expected. The learner should not immediately outsource the problem to AI.
-
-Use this sequence:
-
-~~~text
-1. Restate the problem in plain English.
-2. Write the expected input and output.
-3. Break the problem into smaller steps.
-4. Try a small example manually.
-5. Write pseudocode.
-6. Attempt the code.
-7. Read the error / traceback.
-8. Check official documentation or course notes.
-9. Use Python Tutor if execution flow is unclear.
-10. Outside CS50 assessments, ask AI for a hint or explanation, not a complete solution.
-11. Retry the solution independently.
-12. Explain the finished solution without looking at it.
-~~~
-
-Suggested timer:
-
-- 20-25 minutes of focused independent effort
-- short break if needed
-- then escalate through the protocol
-
-The objective is not to remain stuck indefinitely. The objective is to avoid skipping the reasoning stage.
-
-## 26.4 Python Tutor
-
-Resource:
-
-https://pythontutor.com/
-
-Use Python Tutor when a concept is difficult to visualize, especially:
-
-- variable assignment
-- function calls
-- scope
-- loops
-- conditionals
-- lists/dictionaries
-- recursion later
-- object references later
-
-Python Tutor should be used to answer:
-
-> What is Python doing at each step?
-
-It is a visualization/debugging supplement, not a replacement for writing code.
-
-## 26.5 Practice Python
-
-Resource:
-
-https://www.practicepython.org/exercises/
-
-Practice Python contains more than 40 small beginner exercises.
-
-It is introduced **after loops and basic exception handling are functional**, rather than on Day 1.
-
-Recommended use:
-
-- 2-3 exercises per week
-- choose exercises aligned with concepts already learned
-- solve in Codespaces
-- store selected solutions under the appropriate weekly exercises directory
-- attempt the problem before viewing any published solution
-- do not complete all 40 simply to check a box
-
-This resource exists to increase independent code-writing repetitions.
-
-## 26.6 30 Days of Python - Selective Project Bank
-
-Reference:
-
-https://github.com/Asabeneh/30-Days-Of-Python
-
-Do **not** run this as a second parallel Python course.
-
-Use it selectively after the core CS50P fundamentals are established.
-
-Useful later topics include:
-
-- functions
-- modules
-- exceptions
-- regex
-- file handling
-- virtual environments
-- classes/objects
-- web concepts
-- APIs
-- Pandas
-
-Skip or defer content that conflicts with the main curriculum sequence.
-
-The repository is a **practice/project bank**, not a curriculum authority.
-
-## 26.7 Software-Lifecycle Context
-
-Very early in the curriculum, maintain a high-level picture of where Python will eventually sit:
-
-~~~text
-user / client
-    ↓
-frontend or external system
-    ↓
-Python API / backend
-    ↓
-business logic
-    ↓
-database / files / external APIs
-    ↓
-ML model or LLM
-    ↓
-evaluation / monitoring
-    ↓
-cloud infrastructure
-~~~
-
-During Weeks 1-2, spend no more than roughly **60-90 minutes total** on this architecture orientation.
-
-The purpose is context, not premature infrastructure study.
-
-Do not derail the foundation phase by trying to learn Docker, AWS, FastAPI, databases, and ML all at once.
-
-## 26.8 Build Before Feeling Ready
-
-Once enough syntax exists to create a small program, begin original projects.
-
-The project sequence is:
-
-~~~text
-tiny exercises
-   ↓
-budget calculator
-   ↓
-expense tracker
-   ↓
-database-backed application
-   ↓
-production backend
-   ↓
-ML system
-   ↓
-production AI system
-~~~
-
-Each project should require some independent decisions rather than copying a tutorial line-for-line.
-
-Projects should evolve in complexity as skills are acquired.
-
-## 26.9 Product-Building / SaaS Principle
-
-Building a real product can be valuable, but it is **not a Week 1 objective**.
-
-After backend engineering fundamentals are functional, one portfolio project may be developed as a real product with:
-
-- FastAPI
-- PostgreSQL
-- authentication
-- payments only if the product genuinely needs them
-- CI/CD
-- cloud deployment
-- logging/monitoring
-- later, AI/ML capabilities where justified
-
-The purpose is to create evidence of production engineering ability, not to force every project into a startup.
-
-Existing Hawknetic projects may be used when they provide a better real-world problem than an invented tutorial application.
-
-## 26.10 Revised Daily Python Session Pattern
-
-Once the Codewars warm-up begins, a typical Python-focused study block becomes:
-
-~~~text
-10-15 min   8-kyu Codewars warm-up
-60-90 min   CS50P lesson / problem set
-45-90 min   independent implementation
-10-20 min   debugging / Python Tutor / documentation
-5-10 min    explain what was learned + commit meaningful work
-~~~
-
-The 10-15 minute warm-up comes **out of existing practice time**. It does not increase the 30-hour weekly workload.
-
-## 26.11 AI Tutor Rules - Strengthened
-
-When asking an AI assistant for help with foundational Python, preferred requests are:
-
-- "Explain why this error occurs."
-- "Give me one hint, not the solution."
-- "Ask me questions that lead me to the answer."
-- "Review my solution after I finish it."
-- "Show me what concept I am misunderstanding."
-- "Give me a similar practice problem."
-
-Avoid:
-
-- "Write the assignment for me."
-- pasting a full generated answer into CS50
-- accepting code that cannot be explained line-by-line
-
-AI is functioning correctly when it **increases the learner's reasoning ability**, not when it removes the reasoning.
-
-## 26.12 What We Are Explicitly Not Adopting
-
-Some claims from informal Python-learning content are too aggressive and are **not** part of this roadmap.
-
-We do not assume that:
-
-- knowing basic Python alone makes someone job-ready
-- completing 30 beginner projects equals professional experience
-- building a SaaS is required for employability
-- Codewars performance alone measures engineering ability
-- every Python learner should immediately learn Docker/backend/ML simultaneously
-
-Professional readiness still requires the broader roadmap in this README:
-
-**Python + Git + Linux + SQL + software engineering + APIs + testing + databases + deployment + ML + AI systems.**
-
-## 26.13 Immediate Integration Into Semester 1
-
-The following changes take effect now:
-
-### Week 1
-- Keep CS50P as the only long-form Python course.
-- Use Python Tutor when functions/conditionals are confusing.
-- Introduce the stuck protocol immediately.
-- Do not add another Python course.
-- After Functions & Variables plus basic Conditionals are functional, optionally begin one **8-kyu Codewars** problem at the start of Python sessions.
-- Codewars is capped at 15 minutes normally and 20 minutes maximum.
-
-### Weeks 2-3
-- Continue one short Codewars warm-up per Python study session.
-- After Loops and Exceptions are functional, add **2-3 Practice Python exercises per week**.
-- Start using pseudocode before non-trivial exercises.
-
-### Weeks 4-7
-- Continue CS50P as primary.
-- Use selected Practice Python / 30 Days of Python exercises only when they reinforce the current CS50P topic.
-- Increase independent project work.
-- Do not increase total weekly hours merely to fit supplemental material.
-
-### After CS50P
-- Shift emphasis from beginner exercises to the Expense Tracker, SQL, backend engineering, and progressively more realistic projects.
-- Codewars continues as a small problem-solving warm-up.
-- LeetCode is deferred until the DSA/interview phase.
-
-This protocol is subordinate to the competency gates and acceleration rules already defined above.
+The main strategy remains: get professional software experience as early as possible, then move toward AI engineering.
