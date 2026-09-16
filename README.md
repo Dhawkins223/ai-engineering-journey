@@ -13,7 +13,7 @@ This repository has one source of truth at each level:
 3. Master PDF: a generated printout of the root README followed by the current Week README. The PDF contains no independent curriculum content.
 
 Current detailed week:
-[Semester 1 Week 1](semester-1/week-01/README.md)
+[Semester 1 Week 1](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-01/README.md)
 
 Repository:
 https://github.com/Dhawkins223/ai-engineering-journey
