@@ -1,5 +1,7 @@
 # AI Engineering Journey
 
+**PDF generation contract:** The master PDF is a generated printout of this root README followed by the current Week README. It contains no independent curriculum content.
+
 Cloud-first roadmap from programming fundamentals to production AI systems.
 
 ## Source-of-truth hierarchy
