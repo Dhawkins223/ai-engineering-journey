@@ -12,7 +12,7 @@ Target role family:
 
 **Software Engineer → AI Engineer → Production AI Systems / Agentic AI Engineer**
 
-Target serious AI Engineer applications: **August–September 2027**.
+Target serious AI Engineer applications: **August-September 2027**.
 
 The curriculum is intentionally broader than prompt engineering. The goal is to become capable of taking a problem from idea to production:
 
@@ -422,7 +422,7 @@ Shell basics start in Week 1. Formal Linux study expands later in the semester.
 
 # 9. Semester 1 Courses
 
-## Course 1 — Harvard CS50P: Introduction to Programming with Python
+## Course 1 - Harvard CS50P: Introduction to Programming with Python
 
 Official course:
 https://cs50.harvard.edu/python/
@@ -441,13 +441,9 @@ Units:
 9. Et Cetera
 10. Final Project
 
-Target finish:
+Planned completion:
 
-**October 26, 2026 maximum**
-
-Stretch target:
-
-**October 12–19, 2026**
+**Week 7, ending November 2, 2026.**
 
 CS50P final-project requirements should be followed exactly according to the current course specification.
 
@@ -504,7 +500,7 @@ Required skills:
 
 ---
 
-## Course 3 — Harvard CS50 SQL
+## Course 3 - Harvard CS50 SQL
 
 Official course:
 https://cs50.harvard.edu/sql/
@@ -547,7 +543,7 @@ Starts after CS50P or immediately when CS50P is completed early.
 
 ---
 
-## Course 4 — Linux Foundation LFS101: Introduction to Linux
+## Course 4 - Linux Foundation LFS101: Introduction to Linux
 
 Primary objective:
 
@@ -774,38 +770,26 @@ Week 1 completion gate:
 
 ---
 
-# 12. Semester 1 Portfolio
+# 12. Portfolio Progression
 
-## Project 1 — Python Expense Tracker
+All projects in this public repository are original non-CS50 work.
 
-Purpose:
+Do not reuse public-repo project code as a CS50 assessment submission.
+
+## Project 1 - Personal Budget Calculator / Expense Tracker
 
 Demonstrate:
 
 - Python
 - functions
-- OOP
+- input validation
 - exceptions
 - file handling
 - tests
 - Git
 - documentation
 
-Potentially usable as the CS50P final project if it satisfies all current course rules.
-
----
-
-## Project 2 — Sports Analytics Database
-
-Potential schema:
-
-- teams
-- players
-- games
-- events
-- statistics
-- predictions
-- model_runs
+## Project 2 - Sports Analytics Database
 
 Demonstrate:
 
@@ -818,74 +802,95 @@ Demonstrate:
 - optimization
 - documentation
 
-Potentially usable as the CS50 SQL final project if it satisfies all current course rules.
+## Project 3 - Production Backend Service
 
----
-
-## Project 3 — AI Engineering Journey Repository
-
-This repository itself demonstrates:
-
-- Git/GitHub
-- Codespaces
-- documentation
-- CI
-- progressive engineering practices
-- learning history
-
-Small exercises are **not** to be presented as major portfolio projects.
-
----
-
-# 13. Semester 2 — Backend + Machine Learning Acceleration
-
-Semester 2 should begin immediately after Semester 1 or sooner where prerequisites are complete.
-
-The updated Semester 2 direction is:
-
-### Track A — Backend Engineering
+Expected components:
 
 - FastAPI
-- HTTP
-- REST
+- PostgreSQL
+- validation
+- tests
+- authentication/authorization pattern
+- CI
+- logging
+- deployment
+
+## Project 4 - Small LLM API Application
+
+Expected components:
+
+- hosted LLM API
+- FastAPI integration
+- structured output where useful
+- hand-written eval cases
+- error handling
+- latency/cost notes
+
+## Project 5 - End-to-End ML System
+
+Expected components:
+
+- real dataset
+- preprocessing
+- model selection
+- evaluation
+- API
+- deployment
+- monitoring
+
+## Project 6 - Flagship Production AI System
+
+Expected architecture:
+
+User/Client -> API -> Auth -> AI orchestration -> retrieval/model/tools -> persistent storage -> evals/observability -> cloud deployment
+
+---
+
+# 13. Phase 2 Execution - November 2026 to January 2027
+
+Phase 2 is deliberately parallel rather than sequential.
+
+## Track A - Backend Engineering
+
+- FastAPI
+- HTTP/REST
 - Pydantic
 - PostgreSQL
 - authentication concepts
 - validation
 - testing
 - logging
+- GitHub Actions
+- deployment
 
-### Track B — Data Engineering for ML
+## Track B - First LLM API Project
 
+After FastAPI and HTTP basics are functional:
+
+- call one hosted LLM API
+- expose the capability through a small backend
+- use structured output where appropriate
+- create a small set of hand-written eval cases
+- record latency and cost
+- handle errors explicitly
+
+No agent framework is required here.
+
+## Track C - ML Theory and Data Skills
+
+Run in parallel:
+
+- linear algebra
+- calculus/optimization
+- probability/statistics
 - NumPy
 - Pandas
-- data cleaning
-- transformations
-- exploratory analysis
+- supervised-learning concepts
+- model evaluation
 
-### Track C — Andrew Ng Machine Learning Specialization
+## DSA Essentials
 
-Core concepts:
-
-- supervised learning
-- regression
-- classification
-- regularization
-- neural-network introduction
-- decision trees
-- unsupervised learning
-- recommender concepts
-- reinforcement-learning introduction where included
-
-### Engineering layer
-
-- GitHub Actions
-- containers where useful
-- deployment
-- basic cloud infrastructure
-- DSA essentials
-
-DSA scope:
+Add gradually:
 
 - arrays
 - hash maps
@@ -897,7 +902,6 @@ DSA scope:
 - recursion
 - searching
 - sorting
-- common interview patterns
 
 Do not turn this into a hundreds-of-LeetCode grind.
 
@@ -938,6 +942,13 @@ Do not turn this into a hundreds-of-LeetCode grind.
 - reranking
 - tool calling
 - multimodal AI
+- eval datasets
+- regression evals
+- grounding/hallucination checks
+- tracing
+- latency/cost measurement
+
+Evals belong next to the LLM work from the beginning.
 
 ## Agentic AI Stack
 
@@ -951,6 +962,8 @@ Do not turn this into a hundreds-of-LeetCode grind.
 - multi-agent systems only when justified
 
 ## AI Reliability / Evaluation
+
+This section deepens the eval discipline introduced during LLM API work.
 
 - evaluation datasets
 - regression tests for AI behavior
@@ -1078,7 +1091,7 @@ Existing real projects may evolve into capstones if technically appropriate. Do 
 
 ---
 
-# 17. Certifications — Priority Rules
+# 17. Certifications - Priority Rules
 
 Certifications are secondary to real engineering ability.
 
@@ -1248,7 +1261,7 @@ Any AI working in this repository should follow these rules:
 1. Read this README before making curriculum or architecture decisions.
 2. Determine the learner's current phase before introducing new tooling.
 3. Do not jump directly to advanced AI frameworks while fundamentals are incomplete.
-4. Do not solve foundational coursework wholesale unless explicitly asked for a worked solution outside academic-integrity constraints.
+4. Do not provide, hint at, or commit solutions to CS50 assessments. For non-CS50 practice, prefer explanation, debugging, and review over doing the work.
 5. Prefer explanation, debugging guidance, review, and scaffolding during foundational learning.
 6. Keep the environment cloud-first and lightweight.
 7. Do not add Railway to this learning repository.
@@ -1297,7 +1310,7 @@ That is the standard this curriculum is designed to reach.
 
 ---
 
-# 26. Python Learning Protocol — Problem-Solving Layer
+# 26. Python Learning Protocol - Problem-Solving Layer
 
 This protocol supplements CS50P. It does **not** replace the curriculum or add a second full Python course.
 
@@ -1336,7 +1349,7 @@ Rules:
 - Python only
 - begin with **8 kyu**
 - one kata per study session
-- target 10–15 minutes
+- target 10-15 minutes
 - hard cap: 20 minutes before switching to the stuck protocol
 - do not copy another solution before attempting the problem
 - after solving, compare one or two community solutions and identify one cleaner idea
@@ -1374,14 +1387,14 @@ Use this sequence:
 7. Read the error / traceback.
 8. Check official documentation or course notes.
 9. Use Python Tutor if execution flow is unclear.
-10. Ask AI for a hint or explanation, not a complete solution.
+10. Outside CS50 assessments, ask AI for a hint or explanation, not a complete solution.
 11. Retry the solution independently.
 12. Explain the finished solution without looking at it.
 ~~~
 
 Suggested timer:
 
-- 20–25 minutes of focused independent effort
+- 20-25 minutes of focused independent effort
 - short break if needed
 - then escalate through the protocol
 
@@ -1422,7 +1435,7 @@ It is introduced **after loops and basic exception handling are functional**, ra
 
 Recommended use:
 
-- 2–3 exercises per week
+- 2-3 exercises per week
 - choose exercises aligned with concepts already learned
 - solve in Codespaces
 - store selected solutions under the appropriate weekly exercises directory
@@ -1431,7 +1444,7 @@ Recommended use:
 
 This resource exists to increase independent code-writing repetitions.
 
-## 26.6 30 Days of Python — Selective Project Bank
+## 26.6 30 Days of Python - Selective Project Bank
 
 Reference:
 
@@ -1480,7 +1493,7 @@ evaluation / monitoring
 cloud infrastructure
 ~~~
 
-During Weeks 1–2, spend no more than roughly **60–90 minutes total** on this architecture orientation.
+During Weeks 1-2, spend no more than roughly **60-90 minutes total** on this architecture orientation.
 
 The purpose is context, not premature infrastructure study.
 
@@ -1536,16 +1549,16 @@ Existing Hawknetic projects may be used when they provide a better real-world pr
 Once the Codewars warm-up begins, a typical Python-focused study block becomes:
 
 ~~~text
-10–15 min   8-kyu Codewars warm-up
-60–90 min   CS50P lesson / problem set
-45–90 min   independent implementation
-10–20 min   debugging / Python Tutor / documentation
-5–10 min    explain what was learned + commit meaningful work
+10-15 min   8-kyu Codewars warm-up
+60-90 min   CS50P lesson / problem set
+45-90 min   independent implementation
+10-20 min   debugging / Python Tutor / documentation
+5-10 min    explain what was learned + commit meaningful work
 ~~~
 
-The 10–15 minute warm-up comes **out of existing practice time**. It does not increase the 30-hour weekly workload.
+The 10-15 minute warm-up comes **out of existing practice time**. It does not increase the 30-hour weekly workload.
 
-## 26.11 AI Tutor Rules — Strengthened
+## 26.11 AI Tutor Rules - Strengthened
 
 When asking an AI assistant for help with foundational Python, preferred requests are:
 
@@ -1592,12 +1605,12 @@ The following changes take effect now:
 - After Functions & Variables plus basic Conditionals are functional, optionally begin one **8-kyu Codewars** problem at the start of Python sessions.
 - Codewars is capped at 15 minutes normally and 20 minutes maximum.
 
-### Weeks 2–3
+### Weeks 2-3
 - Continue one short Codewars warm-up per Python study session.
-- After Loops and Exceptions are functional, add **2–3 Practice Python exercises per week**.
+- After Loops and Exceptions are functional, add **2-3 Practice Python exercises per week**.
 - Start using pseudocode before non-trivial exercises.
 
-### Weeks 4–7
+### Weeks 4-7
 - Continue CS50P as primary.
 - Use selected Practice Python / 30 Days of Python exercises only when they reinforce the current CS50P topic.
 - Increase independent project work.
