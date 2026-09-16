@@ -1,43 +1,39 @@
 # AI Engineering Journey
 
-**PDF generation contract:** The master PDF is a generated printout of this root README followed by the current Week README. It contains no independent curriculum content.
+**PDF generation contract:** The master PDF is generated from this root README plus every numbered Week README through June 30, 2027, in week order. It contains no independent curriculum content.
 
 Cloud-first roadmap from programming fundamentals to production AI systems.
 
 ## Source-of-truth hierarchy
 
-This repository has one source of truth at each level:
-
-1. Root README: long-range roadmap, career path, dates, capacity, deadline policy, and phase-level allocation.
-2. Week README: the detailed daily execution plan for that week.
-3. Master PDF: a generated printout of the root README followed by the current Week README. The PDF contains no independent curriculum content.
-
-Current detailed week:
-[Semester 1 Week 1](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-01/README.md)
+1. **Root README:** long-range roadmap, capacity, career path, deadline policy, phase dates, and week index.
+2. **Week README:** exact daily execution plan, hours, links, and done-when gates for that week.
+3. **Master PDF:** printout of the root README followed by the Week READMEs. If the PDF and repo disagree, the repo files are authoritative.
 
 Repository:
 <https://github.com/Dhawkins223/ai-engineering-journey>
 
 ## Capacity and calendar rules
 
-Sustainable study capacity:
-
-**30 productive hours per week**
-
-Cadence:
+**Sustainable capacity: 30 productive hours per week.**
 
 - Tuesday through Sunday are study days.
 - Monday is a fixed rest day.
+- Standard full week: 6 study days x 5 hours = 30 hours.
 - Time estimates are planning estimates, not deadlines.
 - If a block finishes early, move to the next scheduled block.
-- If a block runs long, stop at a sensible checkpoint and roll the unfinished work forward.
-- Do not use Monday to catch up.
-- Do not add extra courses or material just because time remains.
-- If sustained capacity later drops below 30 hours, extend the timeline rather than compressing the work.
+- If a block runs long, stop at a sensible checkpoint and roll it forward.
+- Never use Monday to catch up.
+- Do not add courses or unrelated material to fill time.
+- If sustainable capacity drops below 30 hours, extend the timeline rather than compressing the work.
 
 Official curriculum start:
 
 **September 15, 2026**
+
+Detailed plan currently generated through:
+
+**June 30, 2027**
 
 ## Academic honesty boundary
 
@@ -45,108 +41,68 @@ All CS50 assessment code stays in CS50's own environment:
 
 <https://cs50.dev/>
 
-This public repository contains only original non-CS50 practice, original projects, notes, curriculum files, and tooling.
-
 For CS50 assessments:
 
-- follow the official academic honesty policy: <https://cs50.harvard.edu/python/honesty/>
+- follow <https://cs50.harvard.edu/python/honesty/>
 - do not publish CS50 problem-set solutions in this repository
 - do not use external AI systems to suggest or complete CS50 assessment answers or code
 - use CS50's own AI tools only where the course permits them
 
-## Career path
+This repository contains original non-CS50 practice, original projects, notes, curriculum files, and tooling.
 
-The primary career path is not "zero to AI Engineer in one jump."
+## Main career path
 
-The main ladder is:
+The main career plan is not a one-step jump from zero to AI Engineer.
 
-1. Junior Software Engineer, Software Engineer I, QA Automation, Junior SDET, or technical support engineering with scripting.
+1. Junior Software Engineer, Software Engineer I, QA Automation, Junior SDET, or scripting-oriented technical support/application support.
 2. Python backend, API, application, or data-oriented software work.
-3. ML-adjacent or applied-AI feature work once software and ML foundations are functional.
-4. AI Engineer, Applied AI Engineer, LLM Engineer, or ML Engineer after production software experience and stronger AI-system evidence.
+3. ML-adjacent or applied-AI feature work after software and ML foundations are functional.
+4. AI Engineer, Applied AI Engineer, LLM Engineer, or ML Engineer after stronger production software experience and AI-system evidence.
 
-The curriculum still builds toward AI engineering from the start, but the first professional role does not need to carry an AI title.
+August to September 2027 remains an **AI application checkpoint**, not the assumed first-job outcome.
 
-## Hiring realism for August to September 2027
-
-Assessment:
-
-**A direct AI Engineer hire as a first professional software role by August to September 2027 is low likelihood.**
-
-I am not assigning a numeric probability because I could not find a reliable public dataset that tracks the exact cohort: people starting from zero, self-taught or newly trained, with no professional software experience, and then measures direct AI Engineer hiring within one year.
-
-Evidence that pushes the estimate down:
-
-- Stanford's 2026 AI Index reports that employment for software developers ages 22 to 25 fell nearly 20% from 2024, indicating a difficult early-career software market.
-- LinkedIn's 2026 labor-market reporting says entry-level hiring remains weak even while AI roles continue to grow.
-- A current convenience sample of seven live AI or applied-AI postings checked on September 16, 2026 found that six required at least 3 years of relevant professional experience, four required 5 or more years, and one listed 1 to 3 years. This is not a representative sample, but it shows that experience requirements are common while some lower-experience openings do exist.
-
-Evidence that keeps the path worth pursuing:
-
-- LinkedIn reports that U.S. AI job postings roughly doubled since 2023 and that AI Engineer is now the most common AI role on LinkedIn.
-- Stanford reports strong growth in employer demand for Python, cloud, scalability, workflow management, generative AI, and agentic-system skills.
-
-What remains unknown:
-
-- There is no trustworthy public conversion rate from one year of self-study to AI Engineer employment.
-- Job-title definitions vary substantially across employers.
-- Portfolio quality, internships, contract work, networking, location, interview performance, and whether professional software experience is gained during the year can materially change the outcome.
-
-Therefore, August to September 2027 remains an **AI application checkpoint**, not the base-case first job outcome. The base-case career strategy is to gain professional software or backend experience as early as possible, then move into ML-adjacent and AI-engineering work.
+A direct AI Engineer hire as the first professional software role by that date is **low likelihood**. There is no reliable public dataset giving a clean probability for the exact cohort of people starting from zero, self-teaching for one year, having no professional software experience, and then getting hired directly into an AI Engineer title. Current AI demand is strong, but many live AI postings still ask for multiple years of software or AI experience.
 
 Evidence sources:
 
-- LinkedIn, AI jobs and hiring, August 2026: <https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge>
-- LinkedIn, Labor Market Report 2026: <https://economicgraph.linkedin.com/research/labor-market-report-2026>
-- Stanford HAI, 2026 AI Index Economy: <https://hai.stanford.edu/ai-index/2026-ai-index-report/economy>
-- Stanford HAI, AI jobs chapter: <https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf>
+- LinkedIn AI hiring research: <https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge>
+- LinkedIn Labor Market Report 2026: <https://economicgraph.linkedin.com/research/labor-market-report-2026>
+- Stanford HAI 2026 AI Index Economy: <https://hai.stanford.edu/ai-index/2026-ai-index-report/economy>
+- Stanford HAI 2026 AI Index report: <https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf>
 
-Current posting sample used only as directional evidence:
-
-- ScaleTech AI Engineer, 5+ years software engineering: <https://jobs.lever.co/scale3c/813b5aeb-dadf-4926-9205-1e26290b8c82>
-- BLEN AI Engineer, 5+ years professional software engineering: <https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74>
-- United Tech AI Engineer, 5+ years production Python: <https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b>
-- RYZ Labs Full Stack AI Engineer, 5+ years: <https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44>
-- CYE Senior AI Engineer, 3+ years dedicated AI development: <https://jobs.lever.co/CYE/ba6f695a-5512-4fcb-bcb0-aa7d42c9c6c4>
-- Simbe Applied AI Engineer, 3+ years related technical experience: <https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681>
-- Xsolla Full Stack AI Engineer / Applied AI Engineer, 1 to 3 years full-stack experience: <https://jobs.lever.co/xsolla/ebb74747-c739-4247-bafc-a088c10fa643>
+The strategy is to gain professional software experience as early as possible while continuing the AI curriculum.
 
 ## Long-range roadmap
 
-### Phase 1: Programming and engineering foundation
+### Phase 1 - Programming and engineering foundation
 **September 15 to November 2, 2026**
 
 Core outcomes:
 
-- Python fundamentals through CS50P
-- basic Git and GitHub workflow
-- shell and developer-tool fluency
+- CS50P Python fundamentals
+- Git and GitHub workflow
+- shell/developer-tool fluency
 - debugging and testing habits
-- practical ML mathematics begins in Week 3
+- DeepLearning.AI mathematics begins in Week 3
 
 CS50P:
 <https://cs50.harvard.edu/python/>
 
-### Phase 2: SQL, ML theory, backend foundations, and first LLM API system
-**November 3, 2026 to January 31, 2027**
+Mathematics specialization:
+<https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science>
 
-The work is parallel, but capacity is protected.
+### Phase 2 - SQL, backend, first LLM API system
+**November 3, 2026 to February 1, 2027**
 
-During November and most of December, CS50 SQL and ML mathematics get priority.
+Core outcomes:
 
-FastAPI and the small LLM API project begin only when SQL capacity clears, expected in late December if SQL is on schedule. They do not compete with the SQL deadline.
-
-Phase 2 outcomes:
-
-- relational database design and SQL
-- continued probability, statistics, linear algebra, and optimization
-- HTTP and REST
-- FastAPI and Pydantic
+- CS50 SQL and relational design
+- ML mathematics completion
+- HTTP, REST, FastAPI, Pydantic
 - PostgreSQL application work
-- one small hosted-LLM API application
-- structured outputs where appropriate
-- a small hand-written eval set
-- basic latency, cost, and error-handling measurements
+- API testing
+- first small hosted-LLM API application
+- hand-written evals, latency, cost, and failure handling
 
 CS50 SQL:
 <https://cs50.harvard.edu/sql/>
@@ -154,79 +110,84 @@ CS50 SQL:
 FastAPI:
 <https://fastapi.tiangolo.com/tutorial/>
 
-### Phase 3: Applied machine learning engineering
-**February to March 2027**
+### Phase 3 - Applied machine learning engineering
+**February 2 to April 5, 2027**
 
 Core outcomes:
 
-- NumPy
-- Pandas
-- scikit-learn
-- data cleaning and feature engineering
-- train, validation, and test discipline
-- cross-validation
-- model evaluation
-- model serving through an API
-- an end-to-end ML project
+- Andrew Ng Machine Learning Specialization
+- NumPy and scikit-learn practice
+- preprocessing and feature engineering
+- model selection and evaluation
+- supervised and unsupervised learning
+- end-to-end ML system
 
-### Phase 4: Deep learning
-**April to May 2027**
+Course 1:
+<https://www.coursera.org/learn/machine-learning/>
+
+Course 2:
+<https://www.coursera.org/learn/advanced-learning-algorithms/>
+
+Course 3:
+<https://www.coursera.org/learn/unsupervised-learning-recommenders-reinforcement-learning>
+
+### Phase 4 - Deep learning with PyTorch
+**April 6 to May 31, 2027**
 
 Core outcomes:
 
-- PyTorch
-- tensors and dataloaders
-- neural networks
-- training and validation loops
-- embeddings
-- attention
-- transformer fundamentals
+- PyTorch tensors, data pipelines, models, autograd, optimization
+- reproducible training/validation loops
+- embeddings and sequence modeling
+- attention/transformer building blocks
+- deep-learning project checkpoint
 
 PyTorch tutorials:
 <https://docs.pytorch.org/tutorials/>
 
-### Phase 5: LLM engineering, retrieval, and evals
-**June to July 2027**
+### Phase 5 - LLM engineering, retrieval, and evals
+**June 1 to July 2027**
 
-Core outcomes:
+Detailed plans in this repository currently run through **June 30**.
 
-- LLM APIs
-- Hugging Face Transformers
-- embeddings and vector search
-- retrieval-augmented generation
-- structured outputs and tool calling
-- grounding
-- eval datasets and regression evals
-- tracing and observability
-- latency and cost measurement
+Core outcomes by June 30:
+
+- hosted LLM API integration
+- structured output and validation
+- eval-first workflow
+- Hugging Face transformer/tokenizer fundamentals
+- embeddings and semantic search
+- RAG with source attribution
+- retrieval and generation evals
+- bounded tool-calling concepts
+- latency, cost, and failure analysis
 
 Hugging Face LLM course:
 <https://huggingface.co/learn/llm-course/>
 
-### Phase 6: Agentic and production AI systems
+### Phase 6 - Agentic and production AI systems
 **August to September 2027**
 
 Core outcomes:
 
 - tool-using agents
 - MCP
-- state and workflow orchestration
+- state/workflow orchestration
 - human-in-the-loop patterns
 - queues and asynchronous work
 - model routing and fallbacks
 - prompt-injection defenses
-- permissions and least privilege
+- permissions/least privilege
 - AWS deployment
-- monitoring and CI/CD
-- production reliability
+- monitoring, CI/CD, and reliability
 
 This phase is a specialization layer on top of software engineering, not a substitute for it.
 
 ## MIT Missing Semester replaces LFS101
 
-The formal Linux Foundation LFS101 course is removed.
+No formal LFS101 course is scheduled.
 
-MIT Missing Semester 2026 is the tooling and shell track for Semester 1:
+MIT Missing Semester 2026 is the Semester 1 tooling track:
 
 | Week | Lecture | Direct link |
 | --- | --- | --- |
@@ -240,44 +201,35 @@ MIT Missing Semester 2026 is the tooling and shell track for Semester 1:
 | 8 | Beyond the Code | <https://missing.csail.mit.edu/2026/beyond-code/> |
 | 9 | Code Quality | <https://missing.csail.mit.edu/2026/code-quality/> |
 
-No additional Linux course is scheduled in Semester 1.
-
 ## Weeks 8 to 14 capacity plan
 
-Every row fits the 30-hour weekly ceiling.
+Every row fits the 30-hour ceiling.
 
-FastAPI and the LLM project are intentionally absent from Weeks 8 to 14 unless SQL finishes early. This is the correction for the previous overload.
+| Week | CS50 SQL | ML math | Missing Semester | Original DB project | Protected rollover/slack | Total |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| 8 | 20h | 5h | 1h | 2h | 2h | 30h |
+| 9 | 20h | 5h | 1h | 2h | 2h | 30h |
+| 10 | 20h | 5h | 0h | 3h | 2h | 30h |
+| 11 | 20h | 5h | 0h | 3h | 2h | 30h |
+| 12 | 20h | 5h | 0h | 3h | 2h | 30h |
+| 13 | 21h | 5h | 0h | 2h | 2h | 30h |
+| 14 | 20h | 5h | 0h | 1h | 4h | 30h |
 
-| Week | Dates | CS50 SQL | ML math / statistics | Missing Semester | Deadline slack / rollover | Total |
-| --- | --- | ---: | ---: | ---: | ---: | ---: |
-| 8 | Nov 3-9 | 19h | 8h | 1h | 2h | 30h |
-| 9 | Nov 10-16 | 19h | 8h | 1h | 2h | 30h |
-| 10 | Nov 17-23 | 20h | 8h | 0h | 2h | 30h |
-| 11 | Nov 24-30 | 20h | 8h | 0h | 2h | 30h |
-| 12 | Dec 1-7 | 20h | 8h | 0h | 2h | 30h |
-| 13 | Dec 8-14 | 21h | 7h | 0h | 2h | 30h |
-| 14 | Dec 15-21 | 20h | 6h | 0h | 4h | 30h |
-
-The SQL sequence is Querying, Relating, Designing, Writing, Viewing, Optimizing, Scaling, then the final project. The 19 to 21 hours allocated to SQL are course-wide weekly budgets, not promises that every unit will take the same amount of time.
+FastAPI and the LLM project do not compete with SQL during Weeks 8 to 14. They begin only after SQL capacity clears.
 
 ## CS50 SQL deadline and fallback
 
-Current official deadline:
+Official deadline:
 
 **December 31, 2026 at 23:59 UTC**
 
-In U.S. Eastern Time on that date, this is **6:59 PM EST**.
+Official pages:
 
-Official problem-set deadline page:
-<https://cs50.harvard.edu/sql/psets/>
+- Problem sets: <https://cs50.harvard.edu/sql/psets/>
+- Final project: <https://cs50.harvard.edu/sql/project/>
+- FAQ: <https://cs50.harvard.edu/sql/faqs/>
 
-Official final-project page:
-<https://cs50.harvard.edu/sql/project/>
-
-Official FAQ:
-<https://cs50.harvard.edu/sql/faqs/>
-
-The current FAQ says:
+The FAQ says:
 
 > "best to assume the final deadline is 31 December 2026."
 
@@ -285,64 +237,101 @@ It also says:
 
 > "We cannot make any exceptions to the deadlines for any reason."
 
-The FAQ says that if the course is extended, work completed in 2026 can carry into 2027. An extension is not guaranteed, so this plan does not rely on it.
+The plan does not rely on a future course extension.
 
-Internal SQL target:
+Internal target:
 
-- Week 14 ends December 21.
-- Target the final project for completion by December 18 when progress allows.
-- December 19 to 21 is internal course slack.
-- December 22 to 30 is a deadline reserve. At the normal Tuesday-through-Sunday cadence, this creates up to 40 additional study hours before the official deadline while still preserving Monday rest.
+- aim to finish the SQL final project by December 18
+- December 19 to 21 is internal slack
+- December 22 to 30 is deadline reserve
+- December 30 is the personal final submission target
+- Monday December 28 remains a rest day
 
-Fallback if SQL slips:
-
-1. Pause FastAPI, LLM API work, and any other Phase 2 implementation that has not already begun.
-2. Use the December 22 to 30 reserve exclusively for unfinished required CS50 SQL work.
-3. Do not use Monday December 28.
-4. Treat December 30 as the personal submission deadline to avoid relying on the final hours of December 31.
-5. If required work remains after the official deadline, do not assume late submissions will be accepted. Check the current CS50 SQL FAQ and Gradebook.
-6. If CS50 formally extends the course, continue under the published extension policy. If it does not, the roadmap continues with the underlying SQL skills, but the plan does not pretend the certificate can still be completed late.
+If SQL slips, pause new backend/LLM work and use the reserve for required SQL work first.
 
 ## Portfolio progression
-
-The portfolio should show increasing production depth:
 
 1. Original Python project.
 2. Original SQL/database project.
 3. Production-style FastAPI/PostgreSQL backend.
 4. Small LLM API application with evals.
 5. End-to-end ML system.
-6. Flagship production AI system with retrieval, tools, evals, observability, security, and cloud deployment.
+6. Deep-learning project.
+7. RAG/LLM system with retrieval, evals, sources, reliability notes, and bounded tools.
+8. Later flagship production AI system with cloud deployment, observability, security, and agentic capabilities where justified.
 
 CS50 assessment code is never a public portfolio project.
 
+## Detailed week index through June 30, 2027
+
+| Week | Dates | Daily plan |
+| --- | --- | --- |
+| 1 | Sep 15 to Sep 21, 2026 | [Week 1 daily plan](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-01/README.md) |
+| 2 | Sep 22 to Sep 28, 2026 | [CS50P Loops and Exceptions, command-line environment, original Python practice](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-02/README.md) |
+| 3 | Sep 29 to Oct 5, 2026 | [CS50P Libraries, Git branches/diff/GitHub workflow, linear algebra begins](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-03/README.md) |
+| 4 | Oct 6 to Oct 12, 2026 | [CS50P Unit Tests, pytest thinking, linear algebra, debugging/profiling](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-04/README.md) |
+| 5 | Oct 13 to Oct 19, 2026 | [CS50P File I/O, linear algebra completion, Git/version-control depth](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-05/README.md) |
+| 6 | Oct 20 to Oct 26, 2026 | [CS50P Regular Expressions and OOP start, calculus begins, packaging/shipping](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-06/README.md) |
+| 7 | Oct 27 to Nov 2, 2026 | [CS50P OOP, Et Cetera, final project, calculus, agentic coding lecture](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-07/README.md) |
+| 8 | Nov 3 to Nov 9, 2026 | [CS50 SQL Querying + calculus + Beyond the Code](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-08/README.md) |
+| 9 | Nov 10 to Nov 16, 2026 | [CS50 SQL Relating + calculus completion + Code Quality](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-09/README.md) |
+| 10 | Nov 17 to Nov 23, 2026 | [CS50 SQL Designing + probability/statistics](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-10/README.md) |
+| 11 | Nov 24 to Nov 30, 2026 | [CS50 SQL Writing + probability/statistics](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-11/README.md) |
+| 12 | Dec 1 to Dec 7, 2026 | [CS50 SQL Viewing + probability/statistics](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-12/README.md) |
+| 13 | Dec 8 to Dec 14, 2026 | [CS50 SQL Optimizing + probability/statistics](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-13/README.md) |
+| 14 | Dec 15 to Dec 21, 2026 | [CS50 SQL Scaling + final project + math completion](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-14/README.md) |
+| 15 | Dec 22 to Dec 28, 2026 | [SQL deadline reserve first; FastAPI begins only if SQL is complete](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-15/README.md) |
+| 16 | Dec 29 to Jan 4, 2027 | [Final SQL deadline protection, then backend foundations](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-16/README.md) |
+| 17 | Jan 5 to Jan 11, 2027 | [FastAPI routes, validation, PostgreSQL, testing](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-17/README.md) |
+| 18 | Jan 12 to Jan 18, 2027 | [FastAPI dependencies, security basics, PostgreSQL, first LLM API orientation](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-18/README.md) |
+| 19 | Jan 19 to Jan 25, 2027 | [Small LLM API application, structured responses, hand-written evals](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-19/README.md) |
+| 20 | Jan 26 to Feb 1, 2027 | [Complete Phase 2 backend + LLM project](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-2/week-20/README.md) |
+| 21 | Feb 2 to Feb 8, 2027 | [Machine Learning Specialization Course 1 - Introduction to ML and linear regression](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-21/README.md) |
+| 22 | Feb 9 to Feb 15, 2027 | [Machine Learning Specialization Course 1 - Multiple linear regression and feature engineering](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-22/README.md) |
+| 23 | Feb 16 to Feb 22, 2027 | [Machine Learning Specialization Course 1 - Classification and regularization](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-23/README.md) |
+| 24 | Feb 23 to Mar 1, 2027 | [Machine Learning Specialization Course 2 - Neural networks](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-24/README.md) |
+| 25 | Mar 2 to Mar 8, 2027 | [Machine Learning Specialization Course 2 - Neural network training](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-25/README.md) |
+| 26 | Mar 9 to Mar 15, 2027 | [Machine Learning Specialization Course 2 - Applying ML, bias/variance, error analysis](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-26/README.md) |
+| 27 | Mar 16 to Mar 22, 2027 | [Machine Learning Specialization Course 2 - Decision trees and ensembles](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-27/README.md) |
+| 28 | Mar 23 to Mar 29, 2027 | [Machine Learning Specialization Course 3 - Unsupervised learning and recommenders](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-28/README.md) |
+| 29 | Mar 30 to Apr 5, 2027 | [Machine Learning Specialization completion + end-to-end ML system](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-3/week-29/README.md) |
+| 30 | Apr 6 to Apr 12, 2027 | [PyTorch foundations - quickstart and tensors](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-30/README.md) |
+| 31 | Apr 13 to Apr 19, 2027 | [PyTorch data pipeline - Datasets, DataLoaders, transforms](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-31/README.md) |
+| 32 | Apr 20 to Apr 26, 2027 | [PyTorch models and autograd](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-32/README.md) |
+| 33 | Apr 27 to May 3, 2027 | [PyTorch optimization and model persistence](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-33/README.md) |
+| 34 | May 4 to May 10, 2027 | [Deep learning project - training loop, baselines, validation](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-34/README.md) |
+| 35 | May 11 to May 17, 2027 | [Embeddings and NLP fundamentals](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-35/README.md) |
+| 36 | May 18 to May 24, 2027 | [Attention and transformer building blocks](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-36/README.md) |
+| 37 | May 25 to May 31, 2027 | [Deep learning capstone checkpoint](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-4/week-37/README.md) |
+| 38 | Jun 1 to Jun 7, 2027 | [LLM engineering foundations - hosted API, structured outputs, eval-first workflow](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-5/week-38/README.md) |
+| 39 | Jun 8 to Jun 14, 2027 | [Hugging Face transformers - model/tokenizer usage and transformer concepts](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-5/week-39/README.md) |
+| 40 | Jun 15 to Jun 21, 2027 | [Embeddings, datasets, semantic search, and retrieval foundations](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-5/week-40/README.md) |
+| 41 | Jun 22 to Jun 28, 2027 | [RAG integration, grounding, tool calling boundaries, and evals](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-5/week-41/README.md) |
+| 42 | Jun 29 to Jul 5, 2027 | [June closeout - consolidate the production LLM/RAG system before July](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/phase-5/week-42/README.md) |
+
 ## Employment checkpoints
 
-These are competency checkpoints, not guarantees.
-
 ### Foundation checkpoint
-Start applying to:
 
 - software internships and apprenticeships
-- Junior Software Engineer / Software Engineer I where requirements fit
+- Junior Software Engineer / Software Engineer I
 - QA Automation / Junior SDET
 - scripting-oriented technical support or application support
 
 ### Backend checkpoint
-Add:
 
 - Python backend roles
-- API and application engineering roles
+- API/application engineering roles
 - junior data/backend roles
 
 ### ML-adjacent checkpoint
-Add:
 
 - applied ML software roles
 - ML-adjacent engineering roles
-- data/ML engineering roles where the requirements match actual experience
+- data/ML roles where actual requirements fit
 
 ### AI checkpoint, August to September 2027
-Apply selectively to AI Engineer, Applied AI Engineer, AI Software Engineer, LLM Engineer, and suitable ML Engineer roles if the production portfolio and interview competency are there.
+
+Apply selectively to AI Engineer, Applied AI Engineer, AI Software Engineer, LLM Engineer, and suitable ML Engineer roles if the production portfolio and interview competency support it.
 
 The main strategy remains: get professional software experience as early as possible, then move toward AI engineering.
