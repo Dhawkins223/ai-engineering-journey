@@ -16,7 +16,7 @@ Current detailed week:
 [Semester 1 Week 1](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-01/README.md)
 
 Repository:
-https://github.com/Dhawkins223/ai-engineering-journey
+<https://github.com/Dhawkins223/ai-engineering-journey>
 
 ## Capacity and calendar rules
 
@@ -43,13 +43,13 @@ Official curriculum start:
 
 All CS50 assessment code stays in CS50's own environment:
 
-https://cs50.dev/
+<https://cs50.dev/>
 
 This public repository contains only original non-CS50 practice, original projects, notes, curriculum files, and tooling.
 
 For CS50 assessments:
 
-- follow the official academic honesty policy: https://cs50.harvard.edu/python/honesty/
+- follow the official academic honesty policy: <https://cs50.harvard.edu/python/honesty/>
 - do not publish CS50 problem-set solutions in this repository
 - do not use external AI systems to suggest or complete CS50 assessment answers or code
 - use CS50's own AI tools only where the course permits them
@@ -96,19 +96,19 @@ Therefore, August to September 2027 remains an **AI application checkpoint**, no
 
 Evidence sources:
 
-- LinkedIn, AI jobs and hiring, August 2026: https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge
-- LinkedIn, Labor Market Report 2026: https://economicgraph.linkedin.com/research/labor-market-report-2026
-- Stanford HAI, 2026 AI Index Economy: https://hai.stanford.edu/ai-index/2026-ai-index-report/economy
-- Stanford HAI, AI jobs chapter: https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf
+- LinkedIn, AI jobs and hiring, August 2026: <https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge>
+- LinkedIn, Labor Market Report 2026: <https://economicgraph.linkedin.com/research/labor-market-report-2026>
+- Stanford HAI, 2026 AI Index Economy: <https://hai.stanford.edu/ai-index/2026-ai-index-report/economy>
+- Stanford HAI, AI jobs chapter: <https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf>
 
 Current posting sample used only as directional evidence:
 
-- ScaleTech AI Engineer, 5+ years software engineering: https://jobs.lever.co/scale3c/813b5aeb-dadf-4926-9205-1e26290b8c82
-- BLEN AI Engineer, 5+ years professional software engineering: https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74
-- United Tech AI Engineer, 5+ years production Python: https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b
-- RYZ Labs Full Stack AI Engineer, 5+ years: https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44
-- Lodgify AI Engineer, 3+ years: https://jobs.lever.co/lodgify/d99f7960-cf71-4fd9-b87a-08066b00d07e
-- Simbe Applied AI Engineer, 3+ years: https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681
+- ScaleTech AI Engineer, 5+ years software engineering: <https://jobs.lever.co/scale3c/813b5aeb-dadf-4926-9205-1e26290b8c82>
+- BLEN AI Engineer, 5+ years professional software engineering: <https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74>
+- United Tech AI Engineer, 5+ years production Python: <https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b>
+- RYZ Labs Full Stack AI Engineer, 5+ years: <https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44>
+- Lodgify AI Engineer, 3+ years: <https://jobs.lever.co/lodgify/d99f7960-cf71-4fd9-b87a-08066b00d07e>
+- Simbe Applied AI Engineer, 3+ years: <https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681>
 
 ## Long-range roadmap
 
@@ -124,7 +124,7 @@ Core outcomes:
 - practical ML mathematics begins in Week 3
 
 CS50P:
-https://cs50.harvard.edu/python/
+<https://cs50.harvard.edu/python/>
 
 ### Phase 2: SQL, ML theory, backend foundations, and first LLM API system
 **November 3, 2026 to January 31, 2027**
@@ -148,10 +148,10 @@ Phase 2 outcomes:
 - basic latency, cost, and error-handling measurements
 
 CS50 SQL:
-https://cs50.harvard.edu/sql/
+<https://cs50.harvard.edu/sql/>
 
 FastAPI:
-https://fastapi.tiangolo.com/tutorial/
+<https://fastapi.tiangolo.com/tutorial/>
 
 ### Phase 3: Applied machine learning engineering
 **February to March 2027**
@@ -182,7 +182,7 @@ Core outcomes:
 - transformer fundamentals
 
 PyTorch tutorials:
-https://docs.pytorch.org/tutorials/
+<https://docs.pytorch.org/tutorials/>
 
 ### Phase 5: LLM engineering, retrieval, and evals
 **June to July 2027**
@@ -200,7 +200,7 @@ Core outcomes:
 - latency and cost measurement
 
 Hugging Face LLM course:
-https://huggingface.co/learn/llm-course/
+<https://huggingface.co/learn/llm-course/>
 
 ### Phase 6: Agentic and production AI systems
 **August to September 2027**
@@ -229,15 +229,15 @@ MIT Missing Semester 2026 is the tooling and shell track for Semester 1:
 
 | Week | Lecture | Direct link |
 | --- | --- | --- |
-| 1 | Course Overview + Introduction to the Shell | https://missing.csail.mit.edu/2026/course-shell/ |
-| 2 | Command-line Environment | https://missing.csail.mit.edu/2026/command-line-environment/ |
-| 3 | Development Environment and Tools | https://missing.csail.mit.edu/2026/development-environment/ |
-| 4 | Debugging and Profiling | https://missing.csail.mit.edu/2026/debugging-profiling/ |
-| 5 | Version Control and Git | https://missing.csail.mit.edu/2026/version-control/ |
-| 6 | Packaging and Shipping Code | https://missing.csail.mit.edu/2026/shipping-code/ |
-| 7 | Agentic Coding | https://missing.csail.mit.edu/2026/agentic-coding/ |
-| 8 | Beyond the Code | https://missing.csail.mit.edu/2026/beyond-code/ |
-| 9 | Code Quality | https://missing.csail.mit.edu/2026/code-quality/ |
+| 1 | Course Overview + Introduction to the Shell | <https://missing.csail.mit.edu/2026/course-shell/> |
+| 2 | Command-line Environment | <https://missing.csail.mit.edu/2026/command-line-environment/> |
+| 3 | Development Environment and Tools | <https://missing.csail.mit.edu/2026/development-environment/> |
+| 4 | Debugging and Profiling | <https://missing.csail.mit.edu/2026/debugging-profiling/> |
+| 5 | Version Control and Git | <https://missing.csail.mit.edu/2026/version-control/> |
+| 6 | Packaging and Shipping Code | <https://missing.csail.mit.edu/2026/shipping-code/> |
+| 7 | Agentic Coding | <https://missing.csail.mit.edu/2026/agentic-coding/> |
+| 8 | Beyond the Code | <https://missing.csail.mit.edu/2026/beyond-code/> |
+| 9 | Code Quality | <https://missing.csail.mit.edu/2026/code-quality/> |
 
 No additional Linux course is scheduled in Semester 1.
 
@@ -268,13 +268,13 @@ Current official deadline:
 In U.S. Eastern Time on that date, this is **6:59 PM EST**.
 
 Official problem-set deadline page:
-https://cs50.harvard.edu/sql/psets/
+<https://cs50.harvard.edu/sql/psets/>
 
 Official final-project page:
-https://cs50.harvard.edu/sql/project/
+<https://cs50.harvard.edu/sql/project/>
 
 Official FAQ:
-https://cs50.harvard.edu/sql/faqs/
+<https://cs50.harvard.edu/sql/faqs/>
 
 The current FAQ says:
 
