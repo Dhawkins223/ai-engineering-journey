@@ -6,11 +6,9 @@
 
 Primary focus: CS50P Loops and Exceptions, command-line environment, original Python practice.
 
-Root roadmap:
-<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/README.md>
-
-Rolling outline:
-<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+- [Root roadmap](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/README.md)
+- [Rolling plan outline](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md)
+- [Open existing Codespaces](https://github.com/codespaces)
 
 ## Execution rules
 
@@ -19,14 +17,13 @@ Rolling outline:
 - If a block runs long, stop at a sensible checkpoint and roll the exact unfinished item forward.
 - Do not add filler.
 - CS50 assessment work stays only in cs50.dev.
-- Stop the GitHub Codespace after each coding session and reopen the existing codespace next time.
+- Stop the GitHub Codespace after each coding session and reopen the existing Codespace next time.
 
 ## Thursday, September 24 - 5 hours
 
 ### CS50P Week 2: Loops - 3 hours
 
-Open:
-<https://cs50.harvard.edu/python/weeks/2/>
+Open [CS50P Week 2: Loops](https://cs50.harvard.edu/python/weeks/2/).
 
 Done when:
 
@@ -36,8 +33,7 @@ Done when:
 
 ### Original loops practice - 2 hours
 
-Open existing Codespace:
-<https://github.com/codespaces>
+Open [existing Codespaces](https://github.com/codespaces).
 
 Done when:
 
@@ -49,8 +45,7 @@ Done when:
 
 ### CS50P Problem Set 2 - 4 hours
 
-Open:
-<https://cs50.harvard.edu/python/psets/2/>
+Open [CS50P Problem Set 2](https://cs50.harvard.edu/python/psets/2/).
 
 Work only in cs50.dev.
 
@@ -61,8 +56,7 @@ Done when:
 
 ### MIT Missing Semester: Command-line Environment - 1 hour
 
-Open:
-<https://missing.csail.mit.edu/2026/command-line-environment/>
+Open [Command-line Environment](https://missing.csail.mit.edu/2026/command-line-environment/).
 
 Done when:
 
@@ -76,8 +70,7 @@ Done when:
 
 ### CS50P Week 3: Exceptions - 3 hours
 
-Open:
-<https://cs50.harvard.edu/python/weeks/3/>
+Open [CS50P Week 3: Exceptions](https://cs50.harvard.edu/python/weeks/3/).
 
 Done when:
 
@@ -87,8 +80,7 @@ Done when:
 
 ### Original exception practice - 2 hours
 
-Open existing Codespace:
-<https://github.com/codespaces>
+Open [existing Codespaces](https://github.com/codespaces).
 
 Done when:
 
@@ -100,8 +92,7 @@ Done when:
 
 ### CS50P Problem Set 3 - 3 hours
 
-Open:
-<https://cs50.harvard.edu/python/psets/3/>
+Open [CS50P Problem Set 3](https://cs50.harvard.edu/python/psets/3/).
 
 Work only in cs50.dev.
 
@@ -112,8 +103,7 @@ Done when:
 
 ### Expense Tracker v0.1 - 1 hour
 
-Open existing Codespace:
-<https://github.com/codespaces>
+Open [existing Codespaces](https://github.com/codespaces).
 
 Done when:
 
@@ -121,19 +111,19 @@ Done when:
 - it prints a total
 - invalid numeric input does not terminate the program
 
-### Sunday rolling-plan update - 1 hour
+### Write the Week 3 detailed plan - 1 hour
 
-Open:
-<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+Open the [Week 3 rolling outline](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md).
 
 Done when:
 
-- Week 3's exact named work is copied into a draft detailed plan
+- Week 3's exact named work is copied into the next detailed README
 - rollover appears before new work
-- the draft is no more than 30 hours
-- every Calcworkshop block has a direct lesson URL, hour estimate, and practice-problem done-when
+- the plan is no more than 30 hours
+- every Calcworkshop block has a direct lesson link, hour estimate, and practice-problem done-when
 - Week 3's paid-resource start is clearly marked
 - Monday remains 0 hours
+- the detailed Week 3 README is committed and pushed
 
 ## Monday, September 28 - rest
 
@@ -143,8 +133,7 @@ Done when:
 
 ### CS50 completion / rollover - 3 hours
 
-Open:
-<https://cs50.harvard.edu/python/>
+Reopen [Problem Set 2](https://cs50.harvard.edu/python/psets/2/) and [Problem Set 3](https://cs50.harvard.edu/python/psets/3/) as needed.
 
 Done when:
 
@@ -153,8 +142,7 @@ Done when:
 
 ### Expense Tracker v0.1 - 2 hours
 
-Open existing Codespace:
-<https://github.com/codespaces>
+Open [existing Codespaces](https://github.com/codespaces).
 
 Done when:
 
@@ -179,27 +167,31 @@ Done when:
 - on original code you successfully run `git status`, `git add`, `git commit`, `git push`, and `git log`
 - you can explain what each command changed or displayed
 
-### Finalize detailed Week 3 plan - 2 hours
+### Rollover block - 1 hour
 
-Open:
-<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+Use only unfinished Week 2 work already named above.
 
 Done when:
 
-- Week 3 detailed README reflects actual Week 2 rollover
-- total planned time is no more than 30 hours
-- Monday is off
-- every block has an exact link and concrete deliverable
-- Calcworkshop first-use/cost status is present
-- any overload is resolved by moving downstream work, not compressing
-- the new detailed next-week README is committed and pushed
+- the highest-priority unfinished Week 2 item is completed, or
+- its exact remaining next action is written at the top of Week 3 before any new Libraries work
+
+### Expense Tracker proof pass - 1 hour
+
+Open [existing Codespaces](https://github.com/codespaces).
+
+Done when:
+
+- the tracker README states what the program does and how to run it
+- at least two manual test cases are documented
+- the current version is pushed
 
 ## Week 2 completion gate
 
 1. All Problem Set 2 and Problem Set 3 problems are submitted, or every unfinished problem is explicitly rolled forward before Week 3 course work.
 2. Two original loop programs and one original exception-handling program run.
 3. Expense Tracker v0.1 accepts multiple expenses, totals them, survives invalid numeric input, and is pushed.
-4. Week 3 detailed plan is generated from PLAN_OUTLINE.md within the 30-hour cap.
+4. The Week 3 detailed README is generated from PLAN_OUTLINE.md within the 30-hour cap.
 5. Monday remains a rest day.
 
 **Advance early:** if all five conditions are met before the last scheduled block, begin Week 3 work immediately.
