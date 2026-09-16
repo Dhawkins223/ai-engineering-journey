@@ -16,23 +16,23 @@ Long-range roadmap and policy:
 - If time expires first, stop at a sensible checkpoint, write down what remains, and roll it forward.
 - Monday is not a catch-up day.
 - Do not add extra courses or random tutorials to fill time.
-- Official CS50 problem-set code stays only in https://cs50.dev/
+- Official CS50 problem-set code stays only in <https://cs50.dev/>
 - Do not use external AI systems for CS50 assessments.
 - Original non-CS50 work goes in this repository.
 
 Direct workspace links:
 
-- CS50 coding environment: https://cs50.dev/
-- AI Engineering Codespace: https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
-- Repository: https://github.com/Dhawkins223/ai-engineering-journey
-- CS50 academic honesty: https://cs50.harvard.edu/python/honesty/
+- CS50 coding environment: <https://cs50.dev/>
+- AI Engineering Codespace: <https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
+- Repository: <https://github.com/Dhawkins223/ai-engineering-journey>
+- CS50 academic honesty: <https://cs50.harvard.edu/python/honesty/>
 
 ## Tuesday, September 15 - 5 hours
 
 ### Block 1 - CS50P Week 0 lecture - 120 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/weeks/0/
+<https://cs50.harvard.edu/python/weeks/0/>
 
 Focus on the official Week 0 material only.
 
@@ -45,7 +45,7 @@ Done when:
 ### Block 2 - Indoor Voice - 35 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/0/indoor/
+<https://cs50.harvard.edu/python/psets/0/indoor/>
 
 Work only in cs50.dev.
 
@@ -59,7 +59,7 @@ Do not place the assessment code in this repository.
 ### Block 3 - Playback Speed - 35 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/0/playback/
+<https://cs50.harvard.edu/python/psets/0/playback/>
 
 Work only in cs50.dev.
 
@@ -71,7 +71,7 @@ Done when:
 ### Block 4 - Making Faces - 25 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/0/faces/
+<https://cs50.harvard.edu/python/psets/0/faces/>
 
 Work only in cs50.dev.
 
@@ -83,7 +83,7 @@ Done when:
 ### Block 5 - Original Fuel Cost Estimator - 65 minutes estimated
 
 Open your repository Codespace:
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
 
 Build an original, non-CS50 command-line program that estimates fuel cost from user-provided trip distance, vehicle fuel economy, and fuel price.
 
@@ -116,7 +116,7 @@ Done when:
 ### Block 1 - Continue CS50P Week 0 - 90 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/weeks/0/
+<https://cs50.harvard.edu/python/weeks/0/>
 
 Done when:
 
@@ -126,7 +126,7 @@ Done when:
 ### Block 2 - Einstein - 45 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/0/einstein/
+<https://cs50.harvard.edu/python/psets/0/einstein/>
 
 Work only in cs50.dev.
 
@@ -138,7 +138,7 @@ Done when:
 ### Block 3 - Tip Calculator, official CS50 assessment - 60 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/0/tip/
+<https://cs50.harvard.edu/python/psets/0/tip/>
 
 This is official CS50 assessment work. It is not an independent portfolio build.
 
@@ -152,7 +152,7 @@ Do not publish the assessment code.
 ### Block 4 - MIT Missing Semester: shell basics - 60 minutes estimated
 
 Open:
-https://missing.csail.mit.edu/2026/course-shell/
+<https://missing.csail.mit.edu/2026/course-shell/>
 
 Required commands this week:
 
@@ -173,7 +173,7 @@ Done when:
 ### Block 5 - Refactor original practice - 45 minutes estimated
 
 Open:
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
 
 Use your own Fuel Cost Estimator or another original non-CS50 program.
 
@@ -188,7 +188,7 @@ Done when:
 ### Block 1 - CS50P Week 1 Conditionals - 120 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/weeks/1/
+<https://cs50.harvard.edu/python/weeks/1/>
 
 Done when:
 
@@ -198,7 +198,7 @@ Done when:
 ### Block 2 - Deep Thought - 45 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/1/deep/
+<https://cs50.harvard.edu/python/psets/1/deep/>
 
 Work only in cs50.dev.
 
@@ -210,7 +210,7 @@ Done when:
 ### Block 3 - Home Federal Savings Bank - 45 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/1/bank/
+<https://cs50.harvard.edu/python/psets/1/bank/>
 
 Work only in cs50.dev.
 
@@ -222,7 +222,7 @@ Done when:
 ### Block 4 - Original Vehicle Maintenance Reminder - 60 minutes estimated
 
 Open:
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
 
 Build an original non-CS50 program that accepts vehicle mileage information and uses conditionals to produce a simple maintenance-status message based on rules you choose yourself.
 
@@ -253,7 +253,7 @@ Done when:
 ### Block 1 - Continue CS50P Week 1 - 75 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/weeks/1/
+<https://cs50.harvard.edu/python/weeks/1/>
 
 Done when:
 
@@ -263,7 +263,7 @@ Done when:
 ### Block 2 - File Extensions - 60 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/1/extensions/
+<https://cs50.harvard.edu/python/psets/1/extensions/>
 
 Work only in cs50.dev.
 
@@ -275,7 +275,7 @@ Done when:
 ### Block 3 - Math Interpreter - 60 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/1/interpreter/
+<https://cs50.harvard.edu/python/psets/1/interpreter/>
 
 Work only in cs50.dev.
 
@@ -287,7 +287,7 @@ Done when:
 ### Block 4 - Tracebacks and debugging lab - 60 minutes estimated
 
 Open Python's Errors and Exceptions tutorial:
-https://docs.python.org/3/tutorial/errors.html
+<https://docs.python.org/3/tutorial/errors.html>
 
 Use only your original non-CS50 code for the practice.
 
@@ -303,7 +303,7 @@ Done when you can:
 ### Block 5 - Original debugging notes - 45 minutes estimated
 
 Use:
-https://github.com/Dhawkins223/ai-engineering-journey
+<https://github.com/Dhawkins223/ai-engineering-journey>
 
 Done when:
 
@@ -317,7 +317,7 @@ Done when:
 ### Block 1 - Conditionals review - 60 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/weeks/1/
+<https://cs50.harvard.edu/python/weeks/1/>
 
 Done when:
 
@@ -326,7 +326,7 @@ Done when:
 ### Block 2 - Meal Time - 75 minutes estimated
 
 Open:
-https://cs50.harvard.edu/python/psets/1/meal/
+<https://cs50.harvard.edu/python/psets/1/meal/>
 
 Work only in cs50.dev.
 
@@ -338,7 +338,7 @@ Done when:
 ### Block 3 - Personal Budget Calculator v0.1 - 120 minutes estimated
 
 Open:
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
 
 Build this as original non-CS50 work.
 
@@ -408,7 +408,7 @@ Do not start Week 2 material merely to fill this block.
 ### Block 3 - Finish Personal Budget Calculator v0.1 - 90 minutes estimated
 
 Open:
-https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553
+<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
 
 Done when:
 
