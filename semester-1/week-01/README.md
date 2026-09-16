@@ -6,7 +6,7 @@
 **Monday:** fixed rest day
 
 Long-range roadmap and policy:
-[Root README](../../README.md)
+[Root README](https://github.com/Dhawkins223/ai-engineering-journey/blob/main/README.md)
 
 ## Week 1 execution rules
 
