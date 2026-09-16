@@ -1,18 +1,32 @@
 # AI Engineering Journey
 
-**PDF generation contract:** The master PDF contains only this root README, the frozen current Week 1 README, and the detailed Week 2 README. The rolling outline is intentionally not printed in the PDF.
+> **Employer-proof learning log.** This repository documents the path from zero programming knowledge to production-oriented AI engineering evidence. The degree is currently paused, so this plan is the main technical focus. No transcript, grades, student ID, or appeal information belongs in this public repository.
 
-Cloud-first roadmap from programming fundamentals to production AI systems.
+## Start-date correction
+
+**Official execution start: Thursday, September 17, 2026.**
+
+Week 1 README is frozen and is not edited. Its original calendar labels remain historical. Execute its six study sessions in sequence on:
+
+| Frozen Week 1 session | Actual execution date |
+| --- | --- |
+| Day 1 | Thu Sep 17 |
+| Day 2 | Fri Sep 18 |
+| Day 3 | Sat Sep 19 |
+| Day 4 | Sun Sep 20 |
+| Rest | Mon Sep 21 |
+| Day 5 | Tue Sep 22 |
+| Day 6 | Wed Sep 23 |
+
+Week 2 therefore runs **September 24 to September 30, 2026**. Numbered curriculum weeks continue in seven-day windows with Monday always off.
 
 ## Source-of-truth hierarchy
 
-1. **Root README:** long-range roadmap, hiring evidence, cost policy, deadlines, and rolling-plan rules.
-2. **Current-week README:** exact daily execution plan.
-3. **Next-week README:** exact daily execution plan prepared from the rolling outline.
-4. **PLAN_OUTLINE.md:** single-file outline for all later weeks. It is not a set of prewritten daily plans.
-5. **Master PDF:** printout of the root README + current week + next week only.
-
-Week 1 is frozen by instruction and remains an immutable historical exception even after it is no longer the current week.
+1. Root README: strategy, capacity modes, proof standards, costs, cloud decision, certificates, and policies.
+2. Current-week README: frozen Week 1 during this startup window.
+3. Next-week README: detailed Week 2 execution plan.
+4. `PLAN_OUTLINE.md`: rolling week-by-week outline for later work.
+5. Master PDF: generated from the root README, frozen Week 1, and detailed Week 2 only.
 
 Repository:
 <https://github.com/Dhawkins223/ai-engineering-journey>
@@ -20,228 +34,349 @@ Repository:
 Rolling outline:
 <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
 
-## Capacity and calendar rules
+## Two capacity modes
 
-**Sustainable capacity: 30 productive hours per week.**
+| Mode | Capacity | Schedule | Rule |
+| --- | ---: | --- | --- |
+| Degree paused | **30 h/week** | Six 5-hour study sessions on non-Mondays | Current mode |
+| Degree active | **24 h/week** | Six 4-hour study sessions on non-Mondays | Never compress; extend dates |
 
-**Additional days off through January 4, 2027: none.**
+### If the degree resumes
 
-- Tuesday through Sunday are study days.
-- Monday remains the fixed rest day.
-- November 26, December 24, December 25, December 31, and January 1 are study days because no additional days off were requested.
-- Time estimates are planning estimates, not deadlines.
-- If a block finishes early, move to the next scheduled block.
-- If a block runs long, stop at a sensible checkpoint and roll it forward.
-- Do not use Monday to catch up.
-- Do not add courses or unrelated material to fill time.
-- If sustainable capacity falls below 30 hours, extend the timeline rather than compressing work.
+The switch to 24 hours is immediate. Remaining work is rescaled by **30 / 24 = 1.25**, so the remaining timeline becomes about 25% longer.
 
-Official curriculum start:
+Pause order:
 
-**September 15, 2026**
+1. Weekly coding-interview practice pauses first.
+2. Light AWS study and AZ-900 preparation pause next.
+3. Extra portfolio polish beyond the minimum employer-proof README/tests/results pauses next.
+4. System-design practice pauses until the core track stabilizes.
+5. Math-from-scratch project polish may pause, but Calcworkshop support remains attached to any active math topic.
+6. If the switch occurs before the CS50 SQL deadline, DeepLearning.AI math may pause at an atomic lesson boundary so SQL can take priority.
+
+Core work that does **not** get compressed:
+
+- active CS50 course requirements
+- required Calcworkshop support for active math topics
+- core backend/ML/PyTorch/LLM course work
+- minimum project tests and README evidence
+- primary Azure deployment once backend work reaches that point
+
+### Timeline effect
+
+If 24-hour mode begins **January 4, 2027**, the remaining schedule is expected to extend by roughly 9 to 10 calendar weeks. The September 2027 AI application checkpoint would move to approximately **late November to early December 2027**.
+
+If the degree resumes later, the delay is smaller and is recalculated from remaining planned hours.
+
+### What happens to the CS50 SQL deadline
+
+The official CS50 SQL deadline stays **December 31, 2026 at 23:59 UTC**. A degree restart does not move it.
+
+If 24-hour mode begins before SQL is submitted:
+
+- SQL receives the available study hours first.
+- DSA, secondary-cloud study, portfolio polish, and math are paused as needed.
+- Backend and LLM work move later.
+- If remaining SQL work cannot fit into the remaining 24-hour weeks before December 31, the plan must say the certificate is at risk. Hours are never compressed and Monday is never used.
+
+## Advance-early rule
+
+Once **every done-when condition for the current week is satisfied**, the next week's named work may start immediately.
+
+- Do not wait for the calendar boundary.
+- Do not add filler.
+- Early work counts as the next week's planned work.
+- Monday remains off.
+- If the next week contains a paid-resource start, confirm billing/financial aid before beginning it.
 
 ## Academic honesty boundary
 
-All CS50 assessment code stays in CS50's own environment:
-
+All CS50 assessment code stays in:
 <https://cs50.dev/>
 
-For CS50 assessments:
+Follow:
+<https://cs50.harvard.edu/python/honesty/>
 
-- follow <https://cs50.harvard.edu/python/honesty/>
-- do not publish CS50 problem-set solutions in this repository
-- do not use external AI systems to suggest or complete CS50 assessment answers or code
-- use CS50's own AI tools only where the course permits them
+Do not publish CS50 problem-set code in public portfolio repositories. Do not use external AI systems to suggest or complete CS50 assessment answers or code.
 
-## Hiring evidence and career realism
+## CS50P correction
 
-The main career path remains:
+The official CS50P Problem Sets page currently lists **Problem Sets 0 through 8 only**. There is no CS50P Problem Set 9.
 
-1. Junior Software Engineer, Software Engineer I, QA Automation, Junior SDET, or scripting-oriented technical support/application support.
-2. Python backend, API, application, or data-oriented software work.
-3. ML-adjacent or applied-AI feature work after software and ML foundations are functional.
-4. AI Engineer, Applied AI Engineer, LLM Engineer, or ML Engineer after stronger production software experience and AI-system evidence.
+Source:
+<https://cs50.harvard.edu/python/psets/>
 
-A direct AI Engineer hire as the first professional software role by August to September 2027 remains a **low-likelihood outcome**, not the base case.
+Week 9 "Et Cetera" is course material, and the **Final Project** is the final CS50P deliverable after it:
+<https://cs50.harvard.edu/python/project/>
 
-Evidence:
+## Calcworkshop is required math support
 
-- Stanford's 2026 AI Index reports that U.S. employment for software developers ages 22 to 25 fell nearly 20% from 2024, while older developer headcount continued to grow. Source: <https://hai.stanford.edu/ai-index/2026-ai-index-report/economy>
-- LinkedIn reports that U.S. AI job postings roughly doubled since 2023 and that AI Engineer overtook Machine Learning Engineer as the most common AI role on LinkedIn. Source: <https://news.linkedin.com/2026/new-linkedin-research-finds-women-account-for-just-26-percent-of-ai-hires-as-ai-jobs-surge>
-- LinkedIn's 2026 labor-market report says hiring in advanced economies is down roughly 20% to 35% from pre-pandemic levels. It does not isolate entry-level software hiring, so this is broad labor-market context rather than an entry-level statistic. Source: <https://economicgraph.linkedin.com/research/labor-market-report-2026>
-- Stanford's AI Index reports that Python appeared in 258,674 U.S. AI job postings in 2025, nearly 30% more than in 2024. It also reports long-run increases in demand for AWS (+1,358%), scalability (+733%), and workflow management (+818%), while generative-AI skill mentions rose 111% from 2024 to 2025 and agentic-AI terms rose sharply. Source: <https://hai.stanford.edu/assets/files/ai_index_report_2026.pdf>
+Calcworkshop is required from Week 3 through the last scheduled math/evaluation support in July 2027.
 
-Current posting sample checked on September 16, 2026:
+**Standard Calcworkshop done-when:** watch the named lesson, then work the lesson's practice problems without notes until you can complete the representative problems assigned by the lesson and explain the method aloud. Each rolling-plan row gives the time budget.
 
-- ScaleTech AI Engineer: 5+ years overall software engineering experience. <https://jobs.lever.co/scale3c/813b5aeb-dadf-4926-9205-1e26290b8c82>
-- BLEN AI Engineer: 5+ years professional software engineering experience plus at least 1 year shipping LLM/AI features. <https://jobs.lever.co/blencorp/4b2e3689-9720-4785-b0fe-d09bd5325f74>
-- United Tech AI Engineer: 5+ years production Python experience. <https://jobs.lever.co/vacancies/37272803-0eba-49a4-93bd-5de6be83dd6b>
-- RYZ Labs Full Stack AI Engineer: 5+ years as a Full Stack, Platform, or AI Engineer with production ownership. <https://jobs.lever.co/RyzLabs/8660eb6d-8f82-4602-8e04-de8cd3a4fd44>
-- CYE Senior AI Engineer: 3+ years dedicated AI development, or 7+ years senior software engineering plus at least 1 year deep AI development. <https://jobs.lever.co/CYE/ba6f695a-5512-4fcb-bcb0-aa7d42c9c6c4>
-- Simbe Applied AI Engineer: 3+ years in software engineering, applied ML, data engineering, computer-vision operations, customer-solutions engineering, or related technical work. <https://jobs.lever.co/SimbeRobotics/1460bcbc-984d-44c7-b638-9718a6dc1681>
-- Xsolla Full Stack AI Engineer / Applied AI Engineer: 1 to 3 years full-stack development experience, plus GenAI/LLM-product experience. <https://jobs.lever.co/xsolla/ebb74747-c739-4247-bafc-a088c10fa643>
+### Math-topic mapping
 
-In this seven-posting convenience sample, six required at least 3 years of relevant experience and four required 5 or more years. This sample is directional, not statistically representative.
+| Curriculum dependency | Exact Calcworkshop lesson | Use |
+| --- | --- | --- |
+| Linear systems / row reduction | [Reduced Row Echelon Form](https://calcworkshop.com/linear-equations/reduced-row-echelon-form/) | DeepLearning.AI linear algebra |
+| Vectors / linear combinations | [Vector Equations](https://calcworkshop.com/linear-equations/vector-equations-for-matrix-algebra/) | Linear algebra, embeddings |
+| Matrix operations | [Matrix Operations and Determinants](https://calcworkshop.com/matrix-algebra/matrix-operations-and-determinants/) | Linear algebra, PyTorch tensors |
+| Linear transformations | [Linear Transformations](https://calcworkshop.com/linear-equations/linear-transformations/) | Linear algebra, neural layers |
+| Dot products | [3D Dot Product](https://calcworkshop.com/vectors-and-the-geometry-of-space/dot-product-in-3d/) | embeddings, attention prerequisite |
+| Inner products / orthogonality | [Inner Product, Length, Orthogonality](https://calcworkshop.com/orthogonality/inner-product-length-and-orthogonality/) | embeddings, similarity |
+| Eigenvalues / eigenvectors | [Eigenvalues and Eigenvectors](https://calcworkshop.com/eigenvalues/eigenvalues-and-eigenvectors/) | linear algebra |
+| Least-squares geometry | [Least Squares Problems](https://calcworkshop.com/orthogonality/least-squares-problems/) | regression |
+| Least-squares regression | [Least Squares Regression Line](https://calcworkshop.com/linear-regression/least-squares-regression-line/) | ML regression |
+| Derivatives | [Derivative Rules](https://calcworkshop.com/derivatives/derivative-rules/) | ML optimization, backprop prerequisites |
+| Chain rule | [Chain Rule](https://calcworkshop.com/derivatives/chain-rule/) | backprop |
+| Partial derivatives | [Partial Derivative](https://calcworkshop.com/partial-derivatives/partial-derivative/) | multivariable optimization |
+| Multivariable chain rule | [Multivariable Chain Rule](https://calcworkshop.com/partial-derivatives/multivariable-chain-rule/) | backprop prerequisite |
+| Gradients / directional derivatives | [Directional Derivative](https://calcworkshop.com/partial-derivatives/directional-derivative/) | gradient concepts |
+| Optimization | [Optimization in Calculus](https://calcworkshop.com/application-derivatives/optimization-calculus/) | ML optimization |
+| Basic probability | [Probability Formula](https://calcworkshop.com/probability/probability-formula/) | probability, evals |
+| Conditional probability | [Conditional Probability](https://calcworkshop.com/probability/conditional-probability/) | ML/evals |
+| Bayes theorem | [Bayes Theorem](https://calcworkshop.com/probability/bayes-theorem/) | probabilistic reasoning |
+| Expected value / variance, discrete | [Expected Value and Variance](https://calcworkshop.com/discrete-probability-distribution/standard-deviation-variance-expected-value/) | statistics / metrics |
+| Expected value / variance, continuous | [Expected Value and Variance, Continuous](https://calcworkshop.com/continuous-probability-distribution/expected-value-variance-continuous-random-variable/) | statistics |
+| Normal distribution | [Normal Distribution](https://calcworkshop.com/exploring-data/normal-distribution/) | inference / error analysis |
+| Covariance / correlation | [Covariance vs Correlation](https://calcworkshop.com/joint-probability-distribution/covariance-vs-correlation/) | feature relationships |
+| Confidence intervals | [Population Mean Confidence Interval](https://calcworkshop.com/confidence-interval/population-mean/) | eval uncertainty |
+| Hypothesis testing | [Hypothesis Testing](https://calcworkshop.com/hypothesis-test/hypothesis-testing/) | experiment/eval comparisons |
+| One-sample t test | [One Sample T Test](https://calcworkshop.com/hypothesis-test/one-sample-t-test/) | small-sample inference |
 
-What is still unknown:
+### Topics with no exact Calcworkshop lesson found
 
-- There is no reliable public conversion rate for people starting from zero, studying for one year, having no professional software experience, and then getting hired directly as AI Engineers.
-- Job-title definitions vary by employer.
-- Internships, contract work, portfolio quality, interview performance, networking, and gaining professional software experience during the year can materially change the outcome.
+I searched Calcworkshop for these topics and did **not** find an exact lesson page:
 
-Therefore August to September 2027 remains an AI application checkpoint, while the primary employment strategy is to gain software/backend experience as early as possible and then move toward ML-adjacent and AI-engineering work.
+- gradient descent
+- softmax
+- cross-entropy loss
+- precision / recall / F1 / ROC-AUC
+- transformer attention
 
+The plan therefore uses the exact prerequisite-support lessons above, such as derivatives, multivariable chain rule, directional derivatives, probability, dot product, and inner product. These are explicitly support lessons, not claimed exact coverage.
 
-## Cost and free-access policy
+## Calcworkshop cost comparison
 
-Prices below were checked on September 16, 2026. Metered service prices can change, so recheck before paying.
+Official pricing:
+<https://calcworkshop.com/pricing/>
 
-| Resource | Current cost | Free option / audit | What the free option leaves out | Financial aid | First cost point in plan | Source |
-| --- | --- | --- | --- | --- | --- | --- |
-| GitHub Codespaces | Personal Free includes 120 core-hours and 15 GB-month storage. A 2-core codespace costs $0.18/hour after included usage; storage is $0.07/GB-month. | Not a course. Free quota is included with personal accounts. 120 core-hours equals about 60 wall-clock hours on a 2-core codespace. | Usage beyond the included compute/storage quota is blocked unless billing is enabled, then it is metered. | N/A | Week 1 only if the free quota is exceeded. Paid use is not automatically required. | <https://docs.github.com/en/billing/concepts/product-billing/github-codespaces> |
-| DeepLearning.AI Mathematics for Machine Learning and Data Science on Coursera | $49/month subscription. | Coursera's newer preview model replaces traditional audit for most courses with free access to the first module. DeepLearning.AI specifically confirms the first module can be previewed free. | Full later modules, full assessment access, and the certificate require the paid experience. | Yes. | **Week 3: paid full access or approved financial aid becomes necessary for the planned full specialization.** | <https://www.deeplearning.ai/specializations/mathematics-for-machine-learning-and-data-science> |
-| Andrew Ng Machine Learning Specialization on Coursera | $49/month subscription. | Coursera offers a first-module preview on many courses; the specialization itself is not fully free. | Full specialization access, graded work beyond preview availability, and certificates require the paid experience. | Yes. | **Week 21: paid full access or approved financial aid becomes necessary.** | <https://www.coursera.org/specializations/machine-learning-introduction> |
-| OpenAI API used for the hosted-LLM project | Usage-based. GPT-5.4 Mini is currently $0.75 per 1M input tokens, $0.075 per 1M cached input tokens, and $4.50 per 1M output tokens. | Not a course. The GPT-5.4 Mini API page lists the Free tier as unsupported. | No free production API tier for this model. Usage requires API billing/credits. | No general learner financial-aid program for API usage. | **Week 18: metered API spend first becomes necessary if the plan uses OpenAI as specified.** | <https://developers.openai.com/api/docs/models/gpt-5.4-mini> |
-| AWS, later Phase 6 | Pay-as-you-go by service after credits/free allowances. | New customers can receive $100 at signup and earn up to $100 more, with a free account plan for up to 6 months or until credits are exhausted. | Free plan has access only to select services/features and closes when the free-plan period or credits end unless upgraded. | N/A | After June, during Phase 6. | <https://aws.amazon.com/free/> |
+The plan uses Calcworkshop from approximately **October 1, 2026 through July 28, 2027**, about 10 billing months.
 
-Free resources in the plan include CS50P, CS50 SQL, MIT Missing Semester, FastAPI documentation, PostgreSQL documentation, PyTorch tutorials, Hugging Face LLM Course, Python documentation, and scikit-learn documentation.
+| Billing option | Price | Cost for planned usage |
+| --- | ---: | ---: |
+| Monthly | $29/month | **$290** for 10 months |
+| Yearly | $249/year | **$249** |
+| Difference |  | **Yearly saves $41** |
 
+**Recommendation: yearly.** It costs less for the planned 10-month usage and covers the entire runway through the late-summer application phase.
 
-## Long-range roadmap
+Calcworkshop's official pricing/FAQ pages do not list a financial-aid program. The membership is required in this curriculum.
 
-### Phase 1 - Programming and engineering foundation
-**September 15 to early November 2026**
+## Cloud evidence review: Azure primary, AWS lighter
 
-- CS50P
-- Git and GitHub workflow
-- MIT Missing Semester tooling
-- debugging/testing habits
-- DeepLearning.AI mathematics begins in Week 3
+I reviewed 10 current junior, entry-level, trainee, intern, or Software Engineer I postings on September 16, 2026 and counted named cloud platforms in the posting text.
 
-CS50P: <https://cs50.harvard.edu/python/>
+| Posting | AWS | Azure | Link |
+| --- | :---: | :---: | --- |
+| VivSoft, Software Engineer - Entry Level | Yes | Yes | <https://vivsofttechnologiesfa.applytojob.com/apply/jobs/details/QLa8RzmXAc> |
+| Vituity, Software Engineer I - Remote | No | Yes | <https://www.linkedin.com/jobs/view/software-engineer-i-remote-nationwide-at-vituity-4443262516> |
+| Robert Half, Software Engineer I | Yes | Yes | <https://roberthalf.wd1.myworkdayjobs.com/en-US/RobertHalfCareers/job/Software-Engineer-I_JR-261277> |
+| Red Hawk Technologies, Entry-Level AI Automation Engineer | No | No | <https://redhawktechnologies.applytojob.com/apply/9LknfI40ni/EntryLevel-AI-Automation-Engineer> |
+| Corporate Tools, Junior Software Engineer | No | No | <https://www.corporatetools.com/job-postings/engineering-and-development/junior-software-engineer/> |
+| BNSF, bnsf tech Trainee 2027 | No | No | <https://bnsf.jobs2web.com/job/REMOTE-bnsf-tech-Trainee-2027-%28Remote-US%29-US-76131/1428269800/> |
+| CAI, Software Developer Intern | No | No | <https://builtin.com/job/software-developer-intern/11176807> |
+| Tarpon Health, Junior Software Engineer | No | No | <https://jobs.gusto.com/postings/tarpon-health-inc-junior-software-engineer-ed46c096-21f8-4d95-9ee8-6eb19d73733d> |
+| Canonical, Junior Software Developer - Observability | No | No | <https://job-boards.greenhouse.io/canonicaljobs/jobs/6662428> |
+| Home Depot, Software Engineer - Remote | No | No | <https://www.linkedin.com/jobs/view/software-engineer-remote-at-the-home-depot-4464580072> |
 
-### Phase 2 - SQL, backend, first LLM API system
-**November 2026 to early February 2027**
+**Count in this 10-posting sample: Azure 3, AWS 2, neither named 7.**
 
-- CS50 SQL
-- mathematics continues
-- HTTP, REST, FastAPI, Pydantic
-- PostgreSQL
-- API testing
-- first hosted-LLM API application
-- hand-written evals
-- latency, cost, and failure handling
+This is a small convenience sample, not a labor-market-share estimate.
 
-CS50 SQL: <https://cs50.harvard.edu/sql/>
+### Cloud decision
 
-FastAPI: <https://fastapi.tiangolo.com/tutorial/>
+**Primary cloud: Microsoft Azure.** It has the slight lead in this entry-level sample, and the Vituity Software Engineer I posting specifically asks for hands-on Azure experience.
 
-### Phase 3 - Applied machine learning engineering
-**February to early April 2027**
+**Lighter secondary cloud: AWS.** Learn portability concepts, core service vocabulary, and deployment differences, but do not duplicate the full Azure curriculum.
 
-- Andrew Ng Machine Learning Specialization
-- NumPy and scikit-learn practice
-- preprocessing and feature engineering
-- model selection/evaluation
-- end-to-end ML system
+### First deployment moves earlier
 
-Machine Learning Specialization: <https://www.coursera.org/specializations/machine-learning-introduction>
+The Phase 2 FastAPI/PostgreSQL backend must be deployed to **Azure App Service** before LLM work is considered phase-ready.
 
-### Phase 4 - Deep learning
-**April to May 2027**
+Official FastAPI deployment quickstart:
+<https://learn.microsoft.com/en-us/azure/app-service/quickstart-python>
 
-- PyTorch fundamentals
-- datasets/dataloaders
-- models, autograd, optimization
-- training/validation loops
-- embeddings, sequence models, transformer building blocks
+Target: **Week 18**, after backend tests and persistence are working.
 
-PyTorch tutorials: <https://docs.pytorch.org/tutorials/>
+## Cloud certification
 
-### Phase 5 - LLM engineering, retrieval, and evals
-**June to July 2027**
+At most one cloud certification is in this plan:
 
-- hosted LLM APIs
-- Hugging Face Transformers
-- embeddings and semantic search
-- RAG and source attribution
-- retrieval/generation evals
-- bounded tool calling
-- latency/cost/failure analysis
+**Microsoft Certified: Azure Fundamentals, Exam AZ-900**
+- Exam price: **$99 USD**
+- Official source: <https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/>
+- Target: Week 20, only after the Azure-deployed backend exists.
+- Junior-role value: **minor signal, not a hiring substitute.** The reviewed junior postings emphasize hands-on cloud exposure more strongly than a fundamentals certificate. The deployed Azure project is the higher-value evidence.
 
-Hugging Face LLM Course: <https://huggingface.co/learn/llm-course/>
+If 24-hour degree-active mode begins, AZ-900 preparation is among the first tracks paused.
 
-### Phase 6 - Agentic and production AI systems
-**August to September 2027**
+## Employer-visible proof standard
 
-- tool-using agents
-- MCP
-- workflow orchestration
-- queues/asynchronous work
-- model routing/fallbacks
-- prompt-injection defenses
-- least privilege
-- AWS deployment
-- observability, CI/CD, reliability
+Courses are input. Public evidence is the output.
 
-## Rolling-plan rule
+Each major project gets its own public repository once the first runnable milestone exists. Do **not** create empty placeholder repositories.
 
-Only the current week and next week should have detailed daily READMEs.
+Every project README must include:
 
-The later schedule lives in one file:
+1. Problem
+2. Architecture
+3. How to run
+4. Tests
+5. Results
+6. Known limitations
 
-<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+The learning log links to each project:
 
-### Sunday procedure for creating the next detailed week
+| Public repo | Phase | Employer-visible proof |
+| --- | --- | --- |
+| [python-expense-tracker](https://github.com/Dhawkins223/python-expense-tracker) | Phase 1 | Python, validation, tests, Git |
+| [ai-math-linear-algebra-from-scratch](https://github.com/Dhawkins223/ai-math-linear-algebra-from-scratch) | Phase 1 | vectors/matrices/least-squares concepts implemented in Python/NumPy |
+| [ai-math-gradient-descent-from-scratch](https://github.com/Dhawkins223/ai-math-gradient-descent-from-scratch) | Phase 1/2 | derivatives/gradients turned into a NumPy optimization implementation |
+| [sports-analytics-database](https://github.com/Dhawkins223/sports-analytics-database) | Phase 2 | relational design, SQL, indexes, query evidence |
+| [ai-math-probability-stats-from-scratch](https://github.com/Dhawkins223/ai-math-probability-stats-from-scratch) | Phase 2 | probability, simulation, confidence intervals, hypothesis-testing code |
+| [fastapi-azure-backend](https://github.com/Dhawkins223/fastapi-azure-backend) | Phase 2 | FastAPI, PostgreSQL, tests, Azure deployment |
+| [llm-api-evals](https://github.com/Dhawkins223/llm-api-evals) | Phase 2 | hosted LLM API, structured output, evals, latency/cost |
+| [end-to-end-ml-system](https://github.com/Dhawkins223/end-to-end-ml-system) | Phase 3 | preprocessing, evaluation, API serving |
+| [pytorch-deep-learning-system](https://github.com/Dhawkins223/pytorch-deep-learning-system) | Phase 4 | training/validation, checkpointing, reproducibility |
+| [rag-evals-system](https://github.com/Dhawkins223/rag-evals-system) | Phase 5 | retrieval, sources, RAG, evals, tool boundary |
+| [production-agentic-ai-system](https://github.com/Dhawkins223/production-agentic-ai-system) | Phase 6 | production workflow, MCP/tools, security, observability, cloud |
 
-On Sunday, after the week's required work:
+Project links become live when the corresponding repo is created at its first runnable milestone.
 
-1. Open PLAN_OUTLINE.md and read the next week's row.
-2. List any rollover from the current week before new work.
-3. Recheck the official resource links for changes or deadlines.
-4. Allocate no more than 30 hours across Tuesday through Sunday. Keep Monday at 0 hours.
-5. Give every block a concrete deliverable, such as a named submission recorded in Gradebook, a passing test count, a working endpoint, a committed project artifact, or a specific module completed.
-6. Never use circular wording such as "the planned segment is complete."
-7. If the outline row is flagged HIGH LOAD or the rollover makes it exceed 30 hours, move downstream work. Do not compress the week.
-8. Mark any newly required paid resource and recheck its current price before purchase.
-9. Create the new next-week README and keep the previous week's detailed README only if it is the frozen Week 1 exception.
-10. Regenerate the PDF from root README + current-week README + next-week README only.
+### Phase-end proof ritual
 
-## CS50 SQL deadline and reserve
+At the end of every phase:
 
-Official CS50 SQL deadline:
+- explain the phase project out loud in **5 minutes** as if answering an interviewer
+- update the resume with only evidence that is actually complete
+- update the GitHub profile/pinned repositories
+- verify every public repo README has problem, architecture, run steps, tests, results, and limitations
 
-**December 31, 2026 at 23:59 UTC**
+## Math-from-scratch proof projects
+
+| Major math area | Public repo | Required supporting Calcworkshop lessons |
+| --- | --- | --- |
+| Linear algebra | `ai-math-linear-algebra-from-scratch` | RREF, vector equations, matrix operations, transformations, dot/inner products, eigenvalues, least squares |
+| Calculus / optimization | `ai-math-gradient-descent-from-scratch` | derivative rules, chain rule, partial derivatives, multivariable chain rule, directional derivative, optimization |
+| Probability / statistics | `ai-math-probability-stats-from-scratch` | probability, conditional probability, Bayes, expected value/variance, normal distribution, covariance/correlation, confidence intervals, hypothesis tests |
+
+Each repo must implement the mathematics directly enough to explain the operations, not simply call a high-level ML estimator.
+
+## Coding interviews and system design
+
+After CS50P is complete:
+
+- schedule **1 to 1.5 hours/week** of coding-interview practice
+- focus on arrays/lists, hash maps/dictionaries, stacks/queues, trees, graphs, recursion, searching/sorting, and common patterns
+- LeetCode or equivalent problems are practice, not the main curriculum
+- in 24-hour degree-active mode, this track pauses first
+
+System-design basics begin before the AI application checkpoint, with dedicated blocks in the late PyTorch/LLM phases. Focus on API boundaries, databases, caching, queues, observability, failure modes, and scaling tradeoffs already present in the projects.
+
+## Certificate inventory
+
+| Certificate | Target | Cost in this plan | Evidence/source |
+| --- | --- | ---: | --- |
+| CS50P free CS50 Certificate | Week 7 or actual final-project completion week | **$0** | <https://cs50.harvard.edu/python/certificate/> |
+| DeepLearning.AI Mathematics for Machine Learning and Data Science Specialization | Week 18 target | **$49/month subscription or approved financial aid** | <https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science> |
+| CS50 SQL free CS50 Certificate | Week 14/15, no later than official deadline | **$0** | <https://cs50.harvard.edu/sql/certificate/> |
+| Microsoft Certified: Azure Fundamentals, AZ-900 | Week 20, optional | **$99** | <https://learn.microsoft.com/en-us/credentials/certifications/azure-fundamentals/> |
+| Machine Learning Specialization | Week 29 target | **$49/month subscription or approved financial aid** | <https://www.coursera.org/specializations/machine-learning-introduction> |
+
+No certificate is treated as stronger proof than a tested public project.
+
+## Paid-resource and platform costs
+
+| Resource | Current cost | Free option / what it omits | Aid | First paid point |
+| --- | --- | --- | --- | --- |
+| Calcworkshop | $29/month or $249/year | Public lesson pages provide descriptions, but membership unlocks full course videos/practice/tests | No financial-aid program listed on official pricing/FAQ | Week 3; **yearly recommended** |
+| DeepLearning.AI Math specialization | $49/month | Coursera enrollment/preview availability varies; full specialization/certificate requires paid access or aid | Yes | Week 3 |
+| Machine Learning Specialization | $49/month | Full graded specialization/certificate requires paid access or aid | Yes | Week 21 |
+| OpenAI API | Metered usage | No general free production API assumption in this plan | No general learner aid | Week 19 |
+| Azure | Pay as you go; new Azure free accounts currently offer $200 credit for 30 days plus free service allowances | Free account/allowances are suitable for proof-of-concept use; paid usage begins beyond allowances | N/A | Week 18 deployment if free credit/allowance is unavailable or exhausted |
+| GitHub Codespaces | GitHub Free includes 120 core-hours/month and 15 GB-month storage. 2-core paid rate is $0.18/hour after included usage | A 2-core codespace consumes included usage at 2 core-hours per wall-clock hour | N/A | Only after included quota is exhausted |
 
 Sources:
+- Calcworkshop: <https://calcworkshop.com/pricing/>
+- DeepLearning.AI Math: <https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science>
+- ML Specialization: <https://www.coursera.org/specializations/machine-learning-introduction>
+- Codespaces: <https://docs.github.com/en/billing/concepts/product-billing/github-codespaces>
+- Azure free account: <https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account>
 
+## Codespaces budget rule
+
+GitHub Free currently includes **120 core-hours/month**. On a 2-core codespace that is about **60 wall-clock hours/month** because the included-usage multiplier is 2.
+
+Estimated active Codespaces use from this plan:
+
+| Phase | Estimated active Codespaces time | Monthly estimate | Free-quota risk |
+| --- | ---: | ---: | --- |
+| Early foundation | 8 to 12 h/week | about 35 to 52 h/month | Usually under 60 h |
+| Backend / ML / PyTorch / LLM project phases | 14 to 18 h/week | about 61 to 78 h/month | Likely exceeds free quota |
+
+At roughly 14 h/week, the 60-hour wall-clock equivalent is reached near the end of a typical billing month. At 18 h/week it can be reached around the fourth study week.
+
+Rules:
+
+- **Stop the codespace after every session.**
+- **Reopen the existing codespace instead of creating a new one.**
+- Do not leave it idling while watching lectures or doing math.
+- Use cs50.dev for CS50 assessment work.
+- Check GitHub billing usage before enabling paid overages.
+
+## CS50 SQL deadline plan
+
+Official deadline: **December 31, 2026 at 23:59 UTC**.
+
+Sources:
 - <https://cs50.harvard.edu/sql/psets/>
 - <https://cs50.harvard.edu/sql/project/>
 - <https://cs50.harvard.edu/sql/faqs/>
 
-The FAQ says it is "best to assume the final deadline is 31 December 2026" and says, "We cannot make any exceptions to the deadlines for any reason."
+With the September 17 start-date shift:
 
-Rebuilt internal schedule:
+- Week 13, Dec 10 to Dec 16: Optimizing + Scaling are the priority.
+- Week 14, Dec 17 to Dec 23: Final Project.
+- Internal target: **submit Final Project by Sunday, Dec 20** if progress allows.
+- Tue Dec 22 and Wed Dec 23 provide the first internal reserve.
+- Week 15, Dec 24 to Dec 30, remains emergency SQL reserve if required.
+- Monday Dec 28 remains off.
+- Dec 30 remains the personal hard target.
+- Dec 31 is not treated as planned working margin.
 
-- Week 12 begins Optimizing after Viewing is submitted.
-- Week 13 completes Optimizing and Scaling.
-- Week 14 is primarily the final project.
-- Internal target for final-project submission: **Thursday, December 17**.
-- Planned SQL reserve: **Friday December 18, Saturday December 19, and Sunday December 20**, up to 15 hours.
-- Monday December 21 remains a rest day.
-- Week 15 begins backend work on December 22 if SQL is complete.
+Backend/Azure work starts only when required SQL work is complete.
 
-This moves the planned reserve before the holiday period.
+## Degree-resumption task
 
-Fallback:
+In the same week the plan switches from 30-hour mode to 24-hour mode:
 
-- If SQL is still unfinished after December 20, Week 15 backend work moves.
-- December 22 and December 23 become emergency SQL spillover days first.
-- If required SQL work still remains after December 23, the learner must choose between using the remaining normal study days before the official deadline or accepting the risk of not completing the certificate. No plan should pretend the deadline can be ignored.
-- The roadmap never relies on a future CS50 extension.
+- ask the academic advisor whether AI/ML coursework can count toward SER 4XX or technical electives
+- ask whether the software-engineering capstone can be an AI project
 
-## Current detailed files
+No academic records or private account information should be added to this public repository.
 
-- Frozen current Week 1: <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-01/README.md>
-- Detailed next Week 2: <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/semester-1/week-02/README.md>
-- Later rolling outline: <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+## Long-range roadmap
+
+| Phase | Main outcome | Employer-proof exit |
+| --- | --- | --- |
+| Phase 1, Python + math foundation | CS50P + core math | Python project + linear algebra/calculus math repos + 5-minute explanation + resume/GitHub update |
+| Phase 2, SQL + backend + first LLM | SQL, FastAPI, PostgreSQL, Azure, LLM evals | SQL repo + probability repo + Azure backend + LLM eval repo + phase interview explanation |
+| Phase 3, applied ML | ML specialization + end-to-end ML | tested ML system repo + metrics/limitations + phase interview explanation |
+| Phase 4, PyTorch | deep-learning engineering | reproducible PyTorch repo + phase interview explanation |
+| Phase 5, LLM/RAG/evals | retrieval, grounding, tools, evals | RAG/evals repo + system-design discussion + phase interview explanation |
+| Phase 6, production/agentic AI | MCP/tools/security/observability/cloud | production-agentic repo + application-ready GitHub/resume |
+
+Detailed rolling schedule:
+<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>

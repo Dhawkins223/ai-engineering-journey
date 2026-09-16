@@ -1,13 +1,12 @@
 # Semester 1 Week 2 Daily Plan
 
-**Week:** September 22, 2026 to September 28, 2026  
-**Study target:** 30 productive hours  
-**Study days:** Tuesday through Sunday  
-**Monday:** fixed rest day
+**Actual Week 2:** September 24 to September 30, 2026  
+**Capacity:** 30 productive hours  
+**Monday September 28:** fixed rest day
 
-**Primary focus:** CS50P Loops and Exceptions, command-line environment, original Python practice
+Primary focus: CS50P Loops and Exceptions, command-line environment, original Python practice.
 
-Long-range roadmap:
+Root roadmap:
 <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/README.md>
 
 Rolling outline:
@@ -15,91 +14,91 @@ Rolling outline:
 
 ## Execution rules
 
-- All time blocks are estimates.
-- If a concrete done-when condition is met early, move to the next scheduled block.
-- If time expires first, stop at a sensible checkpoint, record the exact remaining item, and roll it forward.
-- Monday is never a catch-up day.
-- Do not add courses or unrelated material to fill time.
-- Rollover from Week 1 takes priority over new Week 2 work.
-- Original code belongs in the repository Codespace: <https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
-- CS50 assessment code stays only in <https://cs50.dev/> and follows <https://cs50.harvard.edu/python/honesty/>.
+- Six 5-hour study sessions, with Monday off.
+- If every current-week done-when condition is satisfied early, begin the next week's named work immediately.
+- If a block runs long, stop at a sensible checkpoint and roll the exact unfinished item forward.
+- Do not add filler.
+- CS50 assessment work stays only in cs50.dev.
+- Stop the GitHub Codespace after each coding session and reopen the existing codespace next time.
 
-## Tuesday, September 22 - 5 hours
+## Thursday, September 24 - 5 hours
 
-### CS50P Week 2 - Loops - 180 minutes estimated
+### CS50P Week 2: Loops - 3 hours
 
 Open:
 <https://cs50.harvard.edu/python/weeks/2/>
 
 Done when:
 
-- the full Week 2 Loops lecture page has been watched/read once
-- your private notes contain definitions/examples for for, while, range, and list iteration
-- in original non-CS50 scratch code, you can write one for loop and one while loop from a blank file and explain why each terminates
+- the full Loops lecture page has been watched/read once
+- private notes define `for`, `while`, `range`, and basic list iteration
+- in original non-CS50 scratch code, one `for` loop and one `while` loop run and you can explain why each terminates
 
-### Original loops practice - 120 minutes estimated
+### Original loops practice - 2 hours
 
-Open:
-<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
+Open existing Codespace:
+<https://github.com/codespaces>
 
 Done when:
 
 - two original non-CS50 loop programs run successfully
-- one uses a for loop and one uses a while loop
-- each program has at least two manual test inputs recorded in notes
+- one uses a `for` loop and one uses a `while` loop
+- two manual test inputs are recorded for each
 
-## Wednesday, September 23 - 5 hours
+## Friday, September 25 - 5 hours
 
-### CS50P Problem Set 2 - 240 minutes estimated
+### CS50P Problem Set 2 - 4 hours
 
 Open:
 <https://cs50.harvard.edu/python/psets/2/>
 
-Work only in cs50.dev. Do not use external AI for assessment work.
+Work only in cs50.dev.
 
 Done when:
 
-- every required Problem Set 2 submission you chose to complete for the course is submitted in CS50's system and visible in Gradebook, or
-- the four-hour limit is reached and your private notes list the exact unfinished problem titles to resume before any new CS50 assessment
+- **all problems listed in Problem Set 2** are submitted and visible in CS50 Gradebook, or
+- the four-hour limit is reached and private notes list every exact unfinished problem title to resume before any new CS50 assessment work
 
-### MIT Missing Semester - Command-line Environment - 60 minutes estimated
+### MIT Missing Semester: Command-line Environment - 1 hour
 
 Open:
 <https://missing.csail.mit.edu/2026/command-line-environment/>
 
 Done when:
 
-- you have completed the lecture once
-- in the shell, you can use command history, inspect/set a simple environment variable, and explain what the PATH variable does at a basic level
-- a short non-CS50 note is committed to the repo
+- the lecture is completed once
+- you can use shell history
+- you can inspect/set a simple environment variable
+- you can explain `PATH` at a basic level
+- a short non-CS50 note is committed
 
-## Thursday, September 24 - 5 hours
+## Saturday, September 26 - 5 hours
 
-### CS50P Week 3 - Exceptions - 180 minutes estimated
+### CS50P Week 3: Exceptions - 3 hours
 
 Open:
 <https://cs50.harvard.edu/python/weeks/3/>
 
 Done when:
 
-- the full Week 3 Exceptions lecture page has been watched/read once
-- your notes define exception, try, except, else, and input validation
-- an original non-CS50 scratch program rejects invalid numeric input without crashing
+- the full Exceptions lecture page has been watched/read once
+- private notes define exception, `try`, `except`, `else`, and input validation
+- an original scratch program rejects invalid numeric input without crashing
 
-### Original exception practice - 120 minutes estimated
+### Original exception practice - 2 hours
 
-Open:
-<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
+Open existing Codespace:
+<https://github.com/codespaces>
 
 Done when:
 
 - one original program handles at least two invalid-input cases
-- the program reaches a valid result after invalid input is corrected
-- you can name the exception types your code handles
+- it reaches a valid result after corrected input
+- you can name the exception types being handled
 
-## Friday, September 25 - 5 hours
+## Sunday, September 27 - 5 hours
 
-### CS50P Problem Set 3 - 180 minutes estimated
+### CS50P Problem Set 3 - 3 hours
 
 Open:
 <https://cs50.harvard.edu/python/psets/3/>
@@ -108,92 +107,99 @@ Work only in cs50.dev.
 
 Done when:
 
-- every required Problem Set 3 submission you chose to complete for the course is submitted and visible in Gradebook, or
-- the three-hour limit is reached and your private notes list the exact unfinished problem titles
+- **all problems listed in Problem Set 3** are submitted and visible in CS50 Gradebook, or
+- the three-hour limit is reached and private notes list every exact unfinished problem title
 
-### Expense Tracker v0.1 - 120 minutes estimated
+### Expense Tracker v0.1 - 1 hour
 
-Open:
-<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
+Open existing Codespace:
+<https://github.com/codespaces>
 
 Done when:
 
 - the tracker accepts at least three expenses in one run
-- it calculates and prints a total
-- invalid numeric input is handled without terminating the program
-- the code is original non-CS50 work
+- it prints a total
+- invalid numeric input does not terminate the program
 
-## Saturday, September 26 - 5 hours
-
-### CS50 completion block - 180 minutes estimated
-
-Open:
-<https://cs50.harvard.edu/python/>
-
-Done when:
-
-- Gradebook shows all Week 2 and Week 3 CS50 submissions assigned in this plan as submitted, or
-- every remaining assessment is named in your rollover notes in priority order
-
-### Expense Tracker v0.1 continuation - 120 minutes estimated
-
-Open:
-<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
-
-Done when:
-
-- the tracker completes an end-to-end run with at least three expenses
-- totals are correct for two manually checked test cases
-- the current project state is committed and pushed to GitHub
-
-## Sunday, September 27 - 5 hours
-
-### Week 2 rollover window - 120 minutes estimated
-
-Use this block only for unfinished work already named above.
-
-Done when:
-
-- all scheduled Week 2 work is complete, or
-- each unfinished item is explicitly named with its next action and estimated remaining time
-
-### Closed-notes review and Git - 90 minutes estimated
-
-Open:
-<https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=1360636553>
-
-Done when:
-
-- from a blank original file you write a loop and a try/except example without a tutorial
-- you successfully run git status, git add, git commit, git push, and git log on original repository work
-- you can explain what each Git command changed or displayed
-
-### Write the detailed Week 3 plan from the rolling outline - 90 minutes estimated
+### Sunday rolling-plan update - 1 hour
 
 Open:
 <https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
 
 Done when:
 
-- the Week 3 outline row has been copied into a new detailed daily README
-- any Week 2 rollover appears before new Week 3 work
-- the Week 3 total is no more than 30 hours across Tuesday through Sunday
-- Monday is 0 hours
-- every block has an exact link and a concrete deliverable
-- any HIGH LOAD flag is resolved by moving work rather than compressing it
-- the first paid math resource is clearly marked with its current price or financial-aid status
-- the new next-week README is committed and pushed
+- Week 3's exact named work is copied into a draft detailed plan
+- rollover appears before new work
+- the draft is no more than 30 hours
+- every Calcworkshop block has a direct lesson URL, hour estimate, and practice-problem done-when
+- Week 3's paid-resource start is clearly marked
+- Monday remains 0 hours
 
-## Monday, September 28 - fixed rest day
+## Monday, September 28 - rest
 
-**0 study hours.**
+**0 hours.**
 
-Do not use Monday for catch-up. Any unfinished work becomes the first priority on Tuesday.
+## Tuesday, September 29 - 5 hours
 
-## Weekly completion gate
+### CS50 completion / rollover - 3 hours
 
-1. Problem Set 2 and Problem Set 3 are either submitted in CS50 Gradebook or have explicitly named rollover items.
-2. Two original loop programs and one original exception-handling program run in the repository.
+Open:
+<https://cs50.harvard.edu/python/>
+
+Done when:
+
+- Gradebook shows all Problem Set 2 and Problem Set 3 problems submitted, or
+- every remaining item is explicitly named and scheduled before Week 3 Libraries work
+
+### Expense Tracker v0.1 - 2 hours
+
+Open existing Codespace:
+<https://github.com/codespaces>
+
+Done when:
+
+- an end-to-end run accepts at least three expenses
+- totals are correct for two manually checked cases
+- invalid numeric input is handled
+- current project state is committed and pushed
+
+## Wednesday, September 30 - 5 hours
+
+### Closed-notes Python review - 2 hours
+
+Done when:
+
+- from a blank original file you write a loop and a `try/except` example without a tutorial
+- you can explain `for`, `while`, `range`, exception, `try`, and `except`
+
+### Git workflow - 1 hour
+
+Done when:
+
+- on original code you successfully run `git status`, `git add`, `git commit`, `git push`, and `git log`
+- you can explain what each command changed or displayed
+
+### Finalize detailed Week 3 plan - 2 hours
+
+Open:
+<https://github.com/Dhawkins223/ai-engineering-journey/blob/main/PLAN_OUTLINE.md>
+
+Done when:
+
+- Week 3 detailed README reflects actual Week 2 rollover
+- total planned time is no more than 30 hours
+- Monday is off
+- every block has an exact link and concrete deliverable
+- Calcworkshop first-use/cost status is present
+- any overload is resolved by moving downstream work, not compressing
+- the new detailed next-week README is committed and pushed
+
+## Week 2 completion gate
+
+1. All Problem Set 2 and Problem Set 3 problems are submitted, or every unfinished problem is explicitly rolled forward before Week 3 course work.
+2. Two original loop programs and one original exception-handling program run.
 3. Expense Tracker v0.1 accepts multiple expenses, totals them, survives invalid numeric input, and is pushed.
-4. The Week 3 detailed README has been generated from PLAN_OUTLINE.md with no more than 30 hours.
+4. Week 3 detailed plan is generated from PLAN_OUTLINE.md within the 30-hour cap.
 5. Monday remains a rest day.
+
+**Advance early:** if all five conditions are met before the last scheduled block, begin Week 3 work immediately.
