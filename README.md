@@ -44,6 +44,12 @@ The final competency standard is:
 
 > Independently take a real problem, choose an appropriate AI/ML approach, prepare the data/context, implement the system, evaluate it, expose it through software, test it, deploy it, monitor it, and explain the architecture and tradeoffs.
 
+## Target realism
+
+At the currently declared workload of about **30 hours per week**, applying for AI Engineer and Applied AI Engineer roles by August to September 2027 is realistic as an application target.
+
+It is not a guarantee of being competitive for every AI Engineer opening. Many roles still expect professional software engineering experience. The goal is to be technically ready to apply broadly, with production-oriented portfolio evidence, while also applying earlier to junior software, backend, and ML-adjacent roles.
+
 ---
 
 # 2. Curriculum Philosophy
@@ -110,25 +116,31 @@ Later tools are introduced only when required.
 
 # 4. Time Commitment and Acceleration Rules
 
-Normal sprint workload:
+Current declared weekly capacity:
 
-**5 hours/day × 6 days/week ≈ 30 hours/week**
+**30 productive hours per week**
 
-One day per week is normally a rest/catch-up/acceleration day.
+This number is retained because it is the only explicit weekly capacity currently declared in the repository and prior plan. If a different realistic weekly capacity is set, rescale the blocks instead of silently increasing daily workload.
 
-Important rule:
+Study cadence:
 
-> Calendar dates are maximum windows, not gates.
+- Tuesday through Sunday: study days
+- Monday: fixed rest day
+- unfinished work rolls into the next study day or next week
+- Monday is never converted into catch-up time
 
-If a course or competency is genuinely completed early, immediately begin the next prerequisite-compatible course.
+All time blocks are estimates.
 
-Do not repeat material simply to fill a scheduled week.
+For every block:
 
-Keep roughly three active learning tracks when practical:
+- if the "done when" condition is met early, move to the next block
+- if the estimate expires first, stop at a sensible checkpoint, record the blocker, and roll the unfinished work forward
+- do not add hours merely to preserve a calendar label
+- competency gates matter more than exact minutes
 
-1. Core programming / software engineering
-2. Tools / data / cloud
-3. Mathematics / ML / AI
+Calendar dates are maximum windows, not mastery guarantees.
+
+If a competency is genuinely completed early, move to the next prerequisite-compatible topic.
 
 ---
 
@@ -151,9 +163,33 @@ The curriculum is competency-gated, not perfection-gated.
 
 ---
 
-# 6. AI-Assistance Rule
+# 6. Academic Honesty and AI-Assistance Rules
 
-AI tools may be used for:
+## CS50 boundary
+
+All official CS50 assessment code stays in **cs50.dev**.
+
+This public repository contains only:
+
+- original non-CS50 practice programs
+- original projects
+- notes
+- curriculum files
+- tooling and CI configuration
+
+Do not copy CS50 problem-set code into this public repository, even after submission.
+
+For CS50 assessments:
+
+- use https://cs50.dev/
+- follow https://cs50.harvard.edu/python/honesty/
+- do not use ChatGPT, Claude, Copilot, Gemini, or other external AI systems to suggest or complete answers or lines of code
+- use CS50's own AI tools only where the course permits them
+- do not publish assessment solutions
+
+## Outside CS50 assessments
+
+AI may be used for:
 
 - explanations
 - debugging help after an attempt
@@ -161,86 +197,101 @@ AI tools may be used for:
 - practice questions
 - comparing approaches
 - documentation lookup
-- architectural discussion
+- architecture discussion
 
-AI should **not** generate entire foundational exercises for copy/paste.
+Preferred requests include:
 
-Interview test:
+- Explain why this error occurs.
+- Give me one hint, not the solution.
+- Ask me questions that lead me to the answer.
+- Review my solution after I finish it.
+- Give me a similar practice problem.
 
-> Can the learner explain every important line and decision?
-
-If not, the work is not considered learned.
-
-Always follow the academic-honesty requirements of any external course.
+If the learner cannot explain the important lines and decisions, the work is not considered learned.
 
 ---
 
 # 7. One-Year Roadmap
 
-## Phase 1 — Programming Foundation
-**September–November 2026**
+The phases intentionally overlap. Software engineering, ML theory, and AI-system work are not treated as a strict waterfall.
+
+## Phase 1 - Programming and Engineering Foundation
+**September to November 2026**
 
 Core skills:
 
 - Python
 - Git
 - GitHub
-- Linux
+- Linux shell
 - SQL
 - relational database design
 - testing fundamentals
-- mathematics needed for ML
+- practical mathematics for ML
 - basic data structures and algorithms
 
 Primary outcomes:
 
 - independently write small Python programs
-- debug basic programs
-- use Git branches/commits/push/pull
-- work comfortably in a Linux terminal
+- read tracebacks and debug basic failures
+- use Git safely
+- work in a Linux shell
 - design/query relational databases
-- write basic tests
+- write tests
+- understand where Python fits in a larger software system
 
----
+## Phase 2 - Backend + First LLM API System + ML Theory
+**November 2026 to January 2027**
 
-## Phase 2 — Software Engineering / Backend
-**November 2026–January 2027**
+Tracks run in parallel.
 
-Core skills:
+### Backend track
 
 - HTTP
-- REST APIs
+- REST
 - FastAPI
 - Pydantic
 - PostgreSQL
 - authentication concepts
 - pytest
 - API testing
-- application architecture
+- structured logging
 - environment variables and secrets
 - GitHub Actions
-- containers when appropriate
 - cloud deployment
+- containers when justified
 
-Primary project:
+### Small LLM API project
 
-**Production backend service**
+Build a small API-backed AI application after basic FastAPI and HTTP skills are functional.
 
-Expected components:
+The project should include:
 
-- FastAPI
-- PostgreSQL
-- validation
-- authentication or authorization pattern
-- automated tests
-- CI
-- cloud deployment
-- structured logging
+- one hosted LLM API
+- clear system/user input boundaries
+- structured output where appropriate
+- a small set of hand-written evaluation cases
+- basic pass/fail or rubric-based evals
+- latency and cost notes
+- error handling
+- no agent-framework requirement
 
----
+The purpose is to learn early how an LLM fits inside software without skipping software-engineering fundamentals.
 
-## Phase 3 — Machine Learning
-**January–March 2027**
+### ML theory in parallel
+
+Begin or continue:
+
+- linear algebra
+- calculus for optimization
+- probability/statistics
+- supervised-learning concepts
+- loss functions
+- overfitting/underfitting
+- evaluation metrics
+
+## Phase 3 - Applied Machine Learning Engineering
+**January to March 2027**
 
 Core skills:
 
@@ -248,56 +299,31 @@ Core skills:
 - Pandas
 - data cleaning
 - exploratory analysis
-- statistics
 - scikit-learn
-- supervised learning
-- unsupervised learning
-- train/validation/test splits
-- cross-validation
 - feature engineering
 - preprocessing pipelines
+- train/validation/test splits
+- cross-validation
+- supervised learning
+- unsupervised learning
 - metrics
-- overfitting / underfitting
-- bias / variance
 - model selection
 - experiment tracking concepts
+- model serving
 
-Primary project:
+Primary project flow:
 
-**End-to-end ML system**
+real dataset -> cleaning -> feature engineering -> model selection -> cross-validation -> evaluation -> API -> deployment -> monitoring
 
-```text
-real dataset
-  ↓
-cleaning
-  ↓
-feature engineering
-  ↓
-model selection
-  ↓
-cross-validation
-  ↓
-metrics / evaluation
-  ↓
-API
-  ↓
-deployment
-  ↓
-monitoring
-```
-
----
-
-## Phase 4 — Deep Learning
-**March–May 2027**
+## Phase 4 - Deep Learning
+**March to May 2027**
 
 Core skills:
 
 - PyTorch
 - tensors
-- datasets / dataloaders
-- neural-network architecture
-- forward/backward propagation
+- datasets/dataloaders
+- neural networks
 - loss functions
 - optimizers
 - training loops
@@ -307,12 +333,10 @@ Core skills:
 - attention
 - transformers
 
-The objective is conceptual and engineering competence, not becoming a research scientist.
+The goal is engineering competence, not research-scientist depth.
 
----
-
-## Phase 5 — LLM Engineering
-**May–July 2027**
+## Phase 5 - LLM Engineering, Retrieval, and Evals
+**May to July 2027**
 
 Core skills:
 
@@ -326,21 +350,21 @@ Core skills:
 - retrieval
 - vector search
 - RAG
-- chunking strategies
+- chunking
 - reranking concepts
 - grounding
 - citations/source attribution
-- multimodal model usage
-- latency and cost considerations
+- multimodal usage
+- eval datasets
+- regression evals
+- hallucination/grounding checks
+- tracing and observability
+- latency and cost measurement
 
-Primary objective:
+Evals are treated as part of LLM engineering, not as an end-stage add-on.
 
-Build systems that use models reliably rather than merely sending prompts to an API.
-
----
-
-## Phase 6 — Agentic AI and Production AI Systems
-**July–September 2027**
+## Phase 6 - Agentic and Production AI Systems
+**July to September 2027**
 
 Core skills:
 
@@ -349,28 +373,21 @@ Core skills:
 - MCP
 - memory/state
 - workflow orchestration
-- multi-step reasoning systems
-- human-in-the-loop architecture
+- human-in-the-loop patterns
 - multi-agent patterns when justified
-- AI evaluations
-- hallucination / grounding evaluation
-- tracing
-- observability
-- model routing
-- fallback strategies
-- caching
 - queues
 - asynchronous processing
-- security
+- caching
+- model routing
+- fallback strategies
+- permissions and least privilege
 - prompt-injection defense
-- permissions / least privilege
-- cost tracking
-- latency tracking
+- data-exfiltration controls
 - AWS
-- infrastructure patterns
-- CI/CD
 - production deployment
 - monitoring
+- CI/CD
+- reliability engineering
 
 Target specialization:
 
@@ -378,23 +395,28 @@ Target specialization:
 
 ---
 
-# 8. Semester 1 — Foundation Semester
+# 8. Semester 1 - Foundation Semester
 
-**Start:** September 8, 2026  
-**Hard deadline:** December 14, 2026  
-**Length:** 14 weeks / 98 days  
-**Normal workload:** ~30 hours/week  
-**Maximum planned workload:** ~420 hours
+**Official start:** September 15, 2026  
+**End:** December 21, 2026  
+**Length:** 14 weeks  
+**Target:** about 30 productive hours per week  
+**Study days:** Tuesday through Sunday  
+**Monday:** fixed rest day
 
 Three tracks:
 
-- Track A: Programming & Software Engineering
-- Track B: Developer Tools & Data
+- Track A: Programming and Software Engineering
+- Track B: Developer Tools and Data
 - Track C: Mathematics for AI
 
-Important sequencing correction:
+Math starts in **Week 3** and continues in parallel.
 
-DeepLearning.AI mathematics does **not** start on Day 1 because basic Python familiarity is recommended. The first two weeks focus heavily on Python. Math begins in Week 3.
+CS50P runs through **Week 7**, ending November 2, 2026.
+
+SQL becomes the primary database course in **Week 8**.
+
+Shell basics start in Week 1. Formal Linux study expands later in the semester.
 
 ---
 
@@ -443,59 +465,42 @@ Core competency:
 
 ---
 
-## Course 2 — GitHub Foundations (GH-900)
+## Course 2 - Git and GitHub
 
-Core areas:
+Week 1 Git is intentionally narrow.
 
-- Git/GitHub basics
-- repositories
-- collaboration
-- modern development
-- GitHub Projects
-- privacy/security/administration
-- GitHub community
+Required in Week 1:
 
-Practical Git commands that must become functional:
-
-```bash
-git init
-git status
-git add
-git commit
-git log
-git diff
-git branch
-git switch
-git merge
-git clone
-git pull
-git push
-```
-
-Concepts:
-
-- repository
-- commit
-- branch
-- merge
-- remote
-- origin
-- pull request
-- issue
-- fork
 - clone
-- README
-- `.gitignore`
-- license
-- Actions
-- Codespaces
-- branch protection
-- 2FA
-- permissions
+- status
+- add
+- commit
+- push
+- log
 
-Certification target:
+Delayed until **Week 3 or later**:
 
-**Weeks 5–7**
+- branches
+- diff
+- pull requests
+- GitHub Flow
+- GitHub Foundations certification path
+
+The goal in Week 1 is to form a reliable basic source-control habit without overloading the first Python week.
+
+## MIT Missing Semester shell basics
+
+Week 1 includes one hour using:
+
+https://missing.csail.mit.edu/2026/course-shell/
+
+Required skills:
+
+- pwd
+- ls
+- cd
+- mkdir
+- running a Python file from the shell
 
 ---
 
@@ -593,11 +598,9 @@ Concepts:
 
 ---
 
-## Course 5 — DeepLearning.AI Mathematics for Machine Learning and Data Science
+## Course 5 - DeepLearning.AI Mathematics for Machine Learning and Data Science
 
-Starts:
-
-**Week 3**
+Starts in **Week 3** and continues through the semester in parallel with Python, SQL, and later backend work.
 
 Core areas:
 
@@ -636,149 +639,138 @@ The objective is practical ML mathematics, not proof-heavy pure mathematics.
 
 # 10. Semester 1 Weekly Schedule
 
-## Week 1 — Sep 8–14
+## Week 1 - Sep 15 to Sep 21
 
-- CS50P Functions & Variables
+- CS50P Functions and Variables
 - CS50P Conditionals
-- Git/GitHub basics
-- small Python exercises
-- personal budget calculator v0.1
-- no ML math yet
+- official CS50 Problem Set 0 and early Problem Set 1 work in cs50.dev only
+- original non-CS50 Python practice in this repository
+- Git: clone, status, add, commit, push, log
+- one hour of shell basics
+- scheduled traceback/debugging practice
+- Personal Budget Calculator v0.1
+- Monday rest
 
-## Week 2 — Sep 15–21
+## Week 2 - Sep 22 to Sep 28
 
-- Python loops
-- exceptions
-- Git add/commit/push/pull
-- command-line expense tracker v0.1
-- no ML math yet
+- CS50P Loops
+- CS50P Exceptions
+- finish any rolled Week 1 work before advancing
+- original loop/exception practice
+- Git repetition using only the Week 1 command set
+- no formal GitHub Foundations yet
 
-## Week 3 — Sep 22–28
+## Week 3 - Sep 29 to Oct 5
 
-- Python libraries
-- Git branches
-- GitHub Flow
-- pull requests
-- math begins
-- scalars/vectors/matrices
-- linear equations
+- CS50P Libraries
+- Git branches and diff
+- GitHub Flow and pull requests
+- GitHub Foundations path begins
+- math begins: vectors, matrices, linear equations
 
-## Week 4 — Sep 29–Oct 5
+## Week 4 - Oct 6 to Oct 12
 
-- pytest / unit testing
+- CS50P Unit Tests
+- pytest
 - GitHub collaboration
 - matrix operations
 - dot products
 - linear transformations
-- add tests to Python work
 
-## Week 5 — Oct 6–12
+## Week 5 - Oct 13 to Oct 19
 
-- file I/O
+- CS50P File I/O
 - regular expressions
-- GH-900 review
+- GitHub Foundations study
 - eigenvalues/eigenvectors
 
-## Week 6 — Oct 13–19
+## Week 6 - Oct 20 to Oct 26
 
-- object-oriented programming
-- GH-900 practice/exam
+- CS50P Object-Oriented Programming
+- GitHub Foundations study/exam prep
 - calculus
-- slopes
 - derivatives
 - optimization
 
-## Week 7 — Oct 20–26
+## Week 7 - Oct 27 to Nov 2
 
+- CS50P Et Cetera
 - CS50P final project
-- finish GH-900
-- derivatives / optimization
+- finish core GitHub Foundations work
+- gradients and gradient descent
 
-## Week 8 — Oct 27–Nov 2
+## Week 8 - Nov 3 to Nov 9
 
-- CS50 SQL: Querying
-- Linux terminal/filesystem
-- gradients
+- CS50 SQL Querying
+- Linux filesystem/terminal
+- math continuation
+- first backend/HTTP orientation if the Python competency gate is met
 
-## Week 9 — Nov 3–9
+## Week 9 - Nov 10 to Nov 16
 
-- SQL: Relating
+- SQL Relating
 - Linux files/text
-- gradient descent
-
-## Week 10 — Nov 10–16
-
-- SQL: Designing
-- Linux users/permissions/processes
 - probability fundamentals
+- backend basics continue where ready
 
-## Week 11 — Nov 17–23
+## Week 10 - Nov 17 to Nov 23
 
-- SQL: Writing
-- Bash
-- environment variables
-- probability distributions
+- SQL Designing
+- Linux users/permissions/processes
+- probability/statistics
+- FastAPI introduction when prerequisites are met
 
-## Week 12 — Nov 24–30
+## Week 11 - Nov 24 to Nov 30
 
-- SQL: Viewing
-- networking
-- HTTP
-- SSH
-- curl
-- statistics / sampling
+- SQL Writing
+- Bash/environment variables
+- statistics
+- FastAPI/Pydantic practice
+- first small LLM API experiment may begin if HTTP/API basics are functional
 
-## Week 13 — Dec 1–7
+## Week 12 - Dec 1 to Dec 7
 
-- SQL: Optimizing
+- SQL Viewing
+- networking/HTTP/SSH/curl
+- statistics/sampling
+- small LLM API project plus basic eval cases
+
+## Week 13 - Dec 8 to Dec 14
+
+- SQL Optimizing
 - Bash scripts
-- Python on Linux
-- confidence intervals
-- hypothesis testing
-- Bayesian concepts
+- confidence intervals/hypothesis testing
+- backend/LLM project continuation
 
-## Week 14 — Dec 8–14
+## Week 14 - Dec 15 to Dec 21
 
-- SQL: Scaling
+- SQL Scaling
 - SQL final project
-- LFS101 completion
-- mathematics completion/review
+- Semester 1 math review
+- shell/Linux review
+- backend/LLM project checkpoint
+- Semester 1 competency review
 
 ---
 
-# 11. Week 1 Detailed Operating Plan
+# 11. Week 1 Operating Rules
 
-**Target:** 30 productive hours
+Detailed day-by-day work lives in:
 
-Normal structure:
+semester-1/week-01/README.md
 
-- Tuesday: 5h
-- Wednesday: 5h
-- Thursday: 5h
-- Friday: 5h
-- Saturday: 5h
-- Sunday: 5h
-- Monday: 0 planned; rest/catch-up/accelerate
+and the revised Week 1 PDF.
 
-Approximate distribution:
+Week 1 completion gate:
 
-- CS50P instruction: ~10h
-- Python exercises/problem sets: ~7h
-- Git/GitHub: ~6h
-- independent programming: ~4h
-- budget project: ~2h
-- review/documentation: ~1h
-
-Week 1 competency gate:
-
-1. Write a small Python program without copying a tutorial.
-2. Understand variables, types, functions, arguments, parameters, and return values.
-3. Use `if / elif / else` correctly.
-4. Read and investigate a basic Python error.
-5. Use `git add → commit → push` independently.
-6. Have a functioning Python program in GitHub that can be explained line-by-line.
-
-If completed early, immediately begin Week 2.
+1. Write a small original Python program without copying a tutorial.
+2. Explain variables, types, functions, parameters, arguments, and return values.
+3. Use basic conditionals correctly.
+4. Read and investigate a basic Python traceback.
+5. Use basic shell navigation.
+6. Use clone, status, add, commit, push, and log for original repository work.
+7. Keep all CS50 assessment code in cs50.dev.
+8. Keep Monday as a rest day.
 
 ---
 
@@ -1272,20 +1264,13 @@ Any AI working in this repository should follow these rules:
 
 Current phase:
 
-**Semester 1 — Week 1**
+**Semester 1 - Week 1**
 
-Immediate priorities:
+Current source-of-truth Week 1 file:
 
-1. CS50P Functions & Variables
-2. CS50P Conditionals
-3. Git/GitHub foundations
-4. small independently written Python programs
-5. Week 1 budget calculator
-6. commit and push work from Codespaces
+semester-1/week-01/README.md
 
-Math begins in Week 3.
-
-SQL and Linux become primary tracks after the early Python/Git phase or sooner if prerequisite work is completed early.
+Follow the revised Week 1 PDF and this repository, not older schedules.
 
 ---
 
